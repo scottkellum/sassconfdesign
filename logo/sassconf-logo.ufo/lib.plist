@@ -60,8 +60,6 @@
 		<string>space</string>
 		<string>sassconf</string>
 	</array>
-	<key>com.schriftgestaltung.useNiceNames</key>
-	<true/>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>110286DD-7CC0-4653-88EE-5A4885771E1E</string>
 </dict>

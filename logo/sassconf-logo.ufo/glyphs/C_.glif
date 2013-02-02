@@ -3,5 +3,11 @@
   <advance width="600"/>
   <unicode hex="0043"/>
   <outline>
+    <contour>
+      <point x="300" y="0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="300" y="0" type="move" name="bottom"/>
+    </contour>
   </outline>
 </glyph>

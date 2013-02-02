@@ -3,5 +3,14 @@
   <advance width="600"/>
   <unicode hex="0065"/>
   <outline>
+    <contour>
+      <point x="300" y="0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="300" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="540" y="10" type="move" name="ogonek"/>
+    </contour>
   </outline>
 </glyph>
