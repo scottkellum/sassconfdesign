@@ -92,10 +92,10 @@
 	<string>r.glif</string>
 	<key>s</key>
 	<string>s.glif</string>
-	<key>s_a_s_s_c_o_n_f</key>
-	<string>s_a_s_s_c_o_n_f.glif</string>
 	<key>sassconf</key>
 	<string>sassconf.glif</string>
+	<key>sassconf.001</key>
+	<string>sassconf.001.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
 	<key>t</key>
