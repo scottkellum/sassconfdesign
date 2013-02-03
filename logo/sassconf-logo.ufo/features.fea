@@ -3,10 +3,6 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-feature dlig {
-# automatic
-} dlig;
 feature cpsp {
-# automatic
 pos @Uppercase <5 0 10 0>;
 } cpsp;

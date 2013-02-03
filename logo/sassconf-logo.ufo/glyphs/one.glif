@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sassconf" format="1">
+<glyph name="one" format="1">
   <advance width="1000"/>
+  <unicode hex="0031"/>
   <outline>
     <contour>
       <point x="289" y="725"/>
@@ -274,7 +275,7 @@
       <point x="517" y="285"/>
       <point x="519" y="293" type="curve" smooth="yes"/>
       <point x="532" y="342" type="line"/>
-      <point x="550" y="381" type="line" smooth="yes"/>
+      <point x="550" y="381" type="line"/>
       <point x="562" y="405"/>
       <point x="558" y="409"/>
       <point x="552" y="409" type="curve"/>

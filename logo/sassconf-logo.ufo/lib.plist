@@ -57,10 +57,14 @@
 		<string>y</string>
 		<string>z</string>
 		<string>space</string>
-		<string>sassconf</string>
-		<string>sassconf.001</string>
-		<string>sassconf.002</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
 	</array>
+	<key>com.schriftgestaltung.weightValue</key>
+	<real>400</real>
+	<key>com.schriftgestaltung.widthValue</key>
+	<real>400</real>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>110286DD-7CC0-4653-88EE-5A4885771E1E</string>
 </dict>

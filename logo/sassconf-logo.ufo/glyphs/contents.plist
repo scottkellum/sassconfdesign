@@ -84,6 +84,8 @@
 	<string>n.glif</string>
 	<key>o</key>
 	<string>o.glif</string>
+	<key>one</key>
+	<string>one.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
 	<key>q</key>
@@ -92,16 +94,14 @@
 	<string>r.glif</string>
 	<key>s</key>
 	<string>s.glif</string>
-	<key>sassconf</key>
-	<string>sassconf.glif</string>
-	<key>sassconf.001</key>
-	<string>sassconf.001.glif</string>
-	<key>sassconf.002</key>
-	<string>sassconf.002.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
 	<key>t</key>
 	<string>t.glif</string>
+	<key>three</key>
+	<string>three.glif</string>
+	<key>two</key>
+	<string>two.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
 	<key>v</key>
