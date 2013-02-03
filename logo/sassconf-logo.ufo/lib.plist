@@ -56,9 +56,10 @@
 		<string>x</string>
 		<string>y</string>
 		<string>z</string>
-		<string>s_a_s_s_c_o_n_f</string>
 		<string>space</string>
 		<string>sassconf</string>
+		<string>sassconf.001</string>
+		<string>sassconf.002</string>
 	</array>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>110286DD-7CC0-4653-88EE-5A4885771E1E</string>

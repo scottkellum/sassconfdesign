@@ -5,7 +5,6 @@ languagesystem latn dflt;
 
 feature dlig {
 # automatic
-sub s a s s c o n f by s_a_s_s_c_o_n_f;
 } dlig;
 feature cpsp {
 # automatic
