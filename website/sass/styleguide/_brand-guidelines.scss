@@ -82,10 +82,12 @@ h3 {
     h6 { font-size: 1em; }
   }
   .dark-text, .light-text {
-    width: 50%;
-    float: left;
-    padding: 0 1em;
+    padding: .1em 1em;
     border-radius: $radius;
+    @include breakpoint($medium) {
+      width: 50%;
+      float: left;
+    }
   }
   .dark-text {
     background: $quadrary;
