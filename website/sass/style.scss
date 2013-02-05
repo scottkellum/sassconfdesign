@@ -62,12 +62,17 @@ body {
   margin: 0 auto;
 }
 
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
     font-family: $monospace;
     font-size: 1em;
+}
+
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: $secondary;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 @import "styleguide";
