@@ -12,6 +12,11 @@ ul.color-guide {
   @include breakpoint($large) {
     display: table;
   }
+  @include breakpoint($large) {
+    &:hover li {
+      width: 24%;
+    }
+  }
   li {
     padding: 1em;
     font-weight: bold;
@@ -22,6 +27,10 @@ ul.color-guide {
     @include breakpoint($large) {
       width: 25%;
       display: table-cell;
+      @include transition(width .5s);
+      &:hover {
+        width: 28%;
+      }
     }
     &:after {
       // font-weight: normal;
