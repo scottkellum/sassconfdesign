@@ -94,33 +94,43 @@ h3 {
   }
 }
 
-.omnes-freighttext {
+.omnes-jaflapture {
   hgroup {
-    font-family: omnes-pro, sans-serif;
-    h2, h3, h6 { text-transform: uppercase; }
-    h2 { font-weight: 200; }
-    h3 { font-weight: 300; }
-    h4 { font-weight: 400; }
-    h5 { font-weight: 500; }
-    h6 { font-weight: 600; }
+    font-family: omnes-pro;
+    h2, h3, h4, h5, h6 {
+      font-weight: 600;
+    }
   }
   p {
-    font-family: "freight-text-pro", serif;
+    font-family: jaf-lapture;
   }
 }
 
-.omnes-freight {
+.freightsans {
+}
+
+.alrightsans {
+  font-family: "Alright Sans";
+}
+
+.jaflapture-franklingothic {
   hgroup {
-    font-family: omnes-pro, sans-serif;
-    h2, h3, h6 { text-transform: uppercase; }
-    h2 { font-weight: 200; }
-    h3 { font-weight: 300; }
-    h4 { font-weight: 400; }
-    h5 { font-weight: 500; }
-    h6 { font-weight: 600; }
+    font-family: jaf-lapture;
   }
   p {
-    font-family: "freight-text-pro", serif;
+    font-family: franklin-gothic-urw;
+  }
+}
+
+.freightmicro-freightsans {
+  hgroup {
+    font-family: freight-micro-pro;
+    h2, h3, h4, h5, h6 {
+      font-weight: 500;
+    }
+  }
+  p {
+    font-family: freight-sans-pro;
   }
 }
 
