@@ -35,47 +35,21 @@ $text-color: $quadrary;
 ////////////////////////////////////////////
 // TYPOGRAPHY
 
-$display: sans-serif;
-$text: "freight-sans-pro", Verdana, sans-serif;
-$monospace: "source-code-pro", monospace, serif;
+$display: "source-code-pro", Georgia, serif;
+$text: "Alright Sans", Verdana, sans-serif;
+$monospace: "source-code-pro", monospace;
+
+// for modular-scale
+$base-size: 1em;
 
 ////////////////////////////////////////////
 // OTHER SETTINGS
 
 $radius: 4px;
 
-////////////////////////////////////////////
-// PAGE
-
-html {
-  background-color: $background-color;
-  color: $text-color;
-  font-family: $text;
-  line-height: 1.4;
-  @include breakpoint($small)  { font-size: percentage(18 / 16); }
-  @include breakpoint($large) { font-size: percentage(20 / 16); }
-}
-
-body {
-  padding: 0 7% 3em 7%;
-  max-width: $xlarge;
-  margin: 0 auto;
-}
-
-code, kbd, pre, samp {
-    font-family: $monospace;
-    font-size: 1em;
-}
-
-a, a:link, a:visited, a:active {
-  text-decoration: none;
-  color: $secondary;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 @import "styleguide";
+@import "module";
+@import "view";
 
 
 

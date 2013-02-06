@@ -1,0 +1,16 @@
+html {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $text;
+  line-height: 1.4;
+  @include breakpoint($small)  { font-size: percentage(18 / 16); }
+  @include breakpoint($large) { font-size: percentage(20 / 16); }
+}
+
+body {
+  padding: 0 7% 3em 7%;
+  max-width: $xlarge;
+  margin: 0 auto;
+}
+
+@import "view/styleguide";

@@ -12,11 +12,6 @@ ul.color-guide {
   @include breakpoint($large) {
     display: table;
   }
-  @include breakpoint($large) {
-    &:hover li {
-      width: 24%;
-    }
-  }
   li {
     padding: 1em;
     font-weight: bold;
@@ -27,10 +22,6 @@ ul.color-guide {
     @include breakpoint($large) {
       width: 25%;
       display: table-cell;
-      @include transition(width .5s);
-      &:hover {
-        width: 28%;
-      }
     }
     &:after {
       // font-weight: normal;
@@ -67,28 +58,12 @@ ul.color-guide {
 ////////////////////////////////////////////
 // TYPOGRAPHY
 
-h2 {
-  border-top: 3px solid $secondary;
-}
-h3 {
-  border-top: 2px solid $secondary;
-}
-
 .type-specimen {
   @include pie-clearfix;
-  hgroup {
-    h2, h3, h4, h5, h6 {
-      border-top: none;
-      line-height: 1;
-      font-size: 1em;
-      margin: 0 0 .5em 0;
-      color: $tertiary;
-    }
-    h2 { font-size: 2em; }
-    h3 { font-size: 1.8em; }
-    h4 { font-size: 1.6em; }
-    h5 { font-size: 1.3em; }
-    h6 { font-size: 1em; }
+  hgroup * {
+    border: none;
+    margin: 0 0 .5em 0;
+    padding: 0;
   }
   .dark-text, .light-text {
     padding: .1em 1em;
@@ -99,39 +74,6 @@ h3 {
     }
   }
   .dark-text {
-    background: $quadrary;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
+    @extend %dark;
   }
 }
-
-.omnes-jaflapture {
-  hgroup {
-    font-family: omnes-pro;
-    h2, h3, h4, h5, h6 {
-      font-weight: 600;
-    }
-  }
-  p {
-    font-family: jaf-lapture;
-  }
-}
-
-.freightsans {
-}
-
-.jaflapture-alrightsans {
-  hgroup {
-    font-family: jaf-lapture;
-  }
-  p {
-    font-family: "Alright Sans";
-  }
-}
-
-
-
-
-
-
-
