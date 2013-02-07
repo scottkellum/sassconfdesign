@@ -8,9 +8,15 @@ html {
 }
 
 body {
+  margin: 0;
+}
+
+article {
   padding: 0 7% 3em 7%;
   max-width: $xlarge;
   margin: 0 auto;
 }
 
+@import "view/home";
+@import "view/sponsorship";
 @import "view/styleguide";

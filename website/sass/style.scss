@@ -29,7 +29,7 @@ $secondary: cs-secondary();
 $tertiary:  shade(cs-quadrary(), 65%);
 $quadrary:  desaturate(shade(cs-tertiary(), 65%), 60%);
 
-$background-color: #fff;
+$background-color: set-lightness($secondary, 98%);
 $text-color: $quadrary;
 
 ////////////////////////////////////////////

@@ -1,4 +1,39 @@
 ////////////////////////////////////////////
+// LOGO
+
+ul.logo {
+  font-family: sassconf;
+  list-style: none;
+  padding: 0 0 2em 0;
+  color: $tertiary;
+  li {
+    text-align: center;
+    line-height: 1;
+    &:before {
+      display: block;
+      font-family: $text;
+      font-size: 16px;
+      content: "LARGE";
+      color: $secondary;
+      vertical-align: top;
+      margin-top: 2em;
+    }
+    &#{nth-child(1)} {
+      font-size: 8em;
+      &:before { content: "LARGE"; }
+    }
+    &#{nth-child(2)} {
+      font-size: 4em;
+      &:before { content: "MEDIUM"; }
+    }
+    &#{nth-child(3)} {
+      font-size: 2em;
+      &:before { content: "SMALL"; }
+    }
+  }
+}
+
+////////////////////////////////////////////
 // COLOR
 
 ul.color-guide {
