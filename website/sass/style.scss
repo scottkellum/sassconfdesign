@@ -24,7 +24,7 @@ $cs-hue-offset:        40;
 $cs-brightness-offset: 10;
 $cs-color-model:       rgb;
 
-$primary:   cs-primary();
+$primary:   darken(cs-primary(), 5%);
 $secondary: cs-secondary();
 $tertiary:  shade(cs-quadrary(), 65%);
 $quadrary:  desaturate(shade(cs-tertiary(), 65%), 60%);

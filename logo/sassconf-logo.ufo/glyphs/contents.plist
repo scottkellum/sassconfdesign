@@ -70,6 +70,8 @@
 	<string>g.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
+	<key>hyphen</key>
+	<string>hyphen.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
 	<key>j</key>
@@ -84,8 +86,6 @@
 	<string>n.glif</string>
 	<key>o</key>
 	<string>o.glif</string>
-	<key>one</key>
-	<string>one.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
 	<key>q</key>
@@ -98,10 +98,6 @@
 	<string>space.glif</string>
 	<key>t</key>
 	<string>t.glif</string>
-	<key>three</key>
-	<string>three.glif</string>
-	<key>two</key>
-	<string>two.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
 	<key>v</key>

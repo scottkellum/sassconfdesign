@@ -1,11 +1,11 @@
 ////////////////////////////////////////////
 // LOGO
 
-ul.logo {
+.logo {
   font-family: sassconf;
   list-style: none;
   padding: 0 0 2em 0;
-  color: $tertiary;
+  color: $primary;
   li {
     text-align: center;
     line-height: 1;
@@ -16,19 +16,64 @@ ul.logo {
       content: "LARGE";
       color: $secondary;
       vertical-align: top;
-      margin-top: 2em;
+      margin: 2em 0 1em 1em;
     }
     &#{nth-child(1)} {
-      font-size: 8em;
-      &:before { content: "LARGE"; }
+      font-size: 14em;
     }
     &#{nth-child(2)} {
       font-size: 4em;
-      &:before { content: "MEDIUM"; }
-    }
-    &#{nth-child(3)} {
-      font-size: 2em;
       &:before { content: "SMALL"; }
+    }
+  }
+}
+
+.logo-color {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  font-family: sassconf;
+  @include breakpoint($medium) {
+    display: table;
+  }
+  li {
+    font-size: 6em;
+    text-align: center;
+    border-radius: $radius;
+    @include breakpoint($medium) {
+      display: table-cell;
+    }
+    &#{nth-child(1)}, &#{nth-child(3)} {
+      color: $primary;
+    }
+    &#{nth-child(2)}, &#{nth-child(4)} {
+      color: $secondary;
+      background-color: $quadrary;
+    }
+  }
+}
+
+.logo-icon {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  font-family: sassconf;
+  @include breakpoint($medium) {
+    display: table;
+  }
+  li {
+    font-size: 6em;
+    text-align: center;
+    border-radius: $radius;
+    @include breakpoint($medium) {
+      display: table-cell;
+    }
+    &#{nth-child(1)}, &#{nth-child(3)} {
+      color: $primary;
+    }
+    &#{nth-child(2)}, &#{nth-child(4)} {
+      color: $secondary;
+      background-color: $quadrary;
     }
   }
 }
