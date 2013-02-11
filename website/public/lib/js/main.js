@@ -13,7 +13,7 @@
         // Make sure the email field is field out.
         if (emailField.value === '') {
           e.preventDefault();
-          // Show Email Waiting to display email.
+          // Show error regarding email being required.
           // Alternative we could just add the require attribute to the <input>
         }
       }, false)
