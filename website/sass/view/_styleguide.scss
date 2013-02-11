@@ -28,6 +28,26 @@
   }
 }
 
+.logo-lockup {
+  text-align: center;
+  color: $primary;
+  font-family: $display;
+  font-size: 2em;
+  padding: .5em;
+  border-radius: $radius;
+  b {
+    font-weight: 400;
+    font-family: sassconf;
+    display: block;
+    font-size: 2em;
+    margin: 0 0 -.2em 0;
+  }
+  &.dark {
+    background-color: $quadrary;
+    color: $secondary;
+  }
+}
+
 .logo-color {
   width: 100%;
   list-style: none;
@@ -62,7 +82,8 @@
     display: table;
   }
   li {
-    font-size: 6em;
+    font-size: 2em;
+    padding: .5em;
     text-align: center;
     border-radius: $radius;
     @include breakpoint($medium) {
