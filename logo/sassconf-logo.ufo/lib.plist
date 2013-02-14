@@ -57,7 +57,6 @@
 		<string>y</string>
 		<string>z</string>
 		<string>space</string>
-		<string>hyphen</string>
 	</array>
 	<key>com.schriftgestaltung.weightValue</key>
 	<real>400</real>
