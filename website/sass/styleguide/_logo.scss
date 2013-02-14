@@ -8,3 +8,51 @@
   font-weight: normal;
   font-style: normal;
 }
+
+%logo-lockup {
+  text-align: center;
+  color: $primary;
+  font-family: $display;
+  font-size: 2em;
+  padding: .5em;
+  border-radius: $radius;
+  &:before {
+    content: "S";
+    font-weight: 400;
+    font-family: sassconf;
+    display: block;
+    font-size: 2em;
+    margin: 0 0 -.1em 0;
+  }
+}
+
+%logo-lockup-dark {
+  @extend %logo-lockup;
+  -webkit-font-smoothing: antialiased;
+  @include background(linear-gradient(top left, $tertiary, $quadrary));
+  background-color: $quadrary;
+  color: $secondary;
+}
+
+%logo-icon {
+  display: inline-block;
+  font-family: sassconf;
+  font-size: 4em;
+  color: $primary;
+  padding: .25em;
+  margin: .25em;
+  width: 1em;
+  height: 1em;
+  @include box-sizing(content-box);
+  line-height: .81;
+  border-radius: .75em;
+}
+
+%logo-icon-dark {
+  @extend %logo-icon;
+  -webkit-font-smoothing: antialiased;
+  @include background(linear-gradient(top left, $tertiary, $quadrary));
+  background-color: $quadrary;
+  color: $secondary;
+  @include box-shadow(0 0 0 .05em rgba($secondary, .5));
+}

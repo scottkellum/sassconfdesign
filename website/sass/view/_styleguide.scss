@@ -9,93 +9,24 @@
   li {
     text-align: center;
     line-height: 1;
-    &:before {
-      display: block;
-      font-family: $text;
-      font-size: 16px;
-      content: "LARGE";
-      color: $secondary;
-      vertical-align: top;
-      margin: 2em 0 1em 1em;
-    }
-    &#{nth-child(1)} {
-      font-size: 14em;
-    }
-    &#{nth-child(2)} {
-      font-size: 4em;
-      &:before { content: "SMALL"; }
+    font-size: 10em;
+    @include breakpoint($medium) {
+      font-size: 20em;
     }
   }
 }
 
 .logo-lockup {
-  text-align: center;
-  color: $primary;
-  font-family: $display;
-  font-size: 2em;
-  padding: .5em;
-  border-radius: $radius;
-  b {
-    font-weight: 400;
-    font-family: sassconf;
-    display: block;
-    font-size: 2em;
-    margin: 0 0 -.2em 0;
-  }
+  @extend %logo-lockup;
   &.dark {
-    background-color: $quadrary;
-    color: $secondary;
-  }
-}
-
-.logo-color {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  font-family: sassconf;
-  @include breakpoint($medium) {
-    display: table;
-  }
-  li {
-    font-size: 6em;
-    text-align: center;
-    border-radius: $radius;
-    @include breakpoint($medium) {
-      display: table-cell;
-    }
-    &#{nth-child(1)}, &#{nth-child(3)} {
-      color: $primary;
-    }
-    &#{nth-child(2)}, &#{nth-child(4)} {
-      color: $secondary;
-      background-color: $quadrary;
-    }
+    @extend %logo-lockup-dark;
   }
 }
 
 .logo-icon {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  font-family: sassconf;
-  @include breakpoint($medium) {
-    display: table;
-  }
-  li {
-    font-size: 2em;
-    padding: .5em;
-    text-align: center;
-    border-radius: $radius;
-    @include breakpoint($medium) {
-      display: table-cell;
-    }
-    &#{nth-child(1)}, &#{nth-child(3)} {
-      color: $primary;
-    }
-    &#{nth-child(2)}, &#{nth-child(4)} {
-      color: $secondary;
-      background-color: $quadrary;
-    }
+  @extend %logo-icon;
+  &.dark {
+    @extend %logo-icon-dark;
   }
 }
 
