@@ -15,7 +15,6 @@
   font-family: $display;
   font-size: 2em;
   padding: .5em;
-  border-radius: $radius;
   &:before {
     content: "S";
     font-weight: 400;
@@ -29,8 +28,7 @@
 %logo-lockup-dark {
   @extend %logo-lockup;
   -webkit-font-smoothing: antialiased;
-  @include background(linear-gradient(top left, $tertiary, $quadrary));
-  background-color: $quadrary;
+  @include dark-background;
   color: $secondary;
 }
 
@@ -51,8 +49,7 @@
 %logo-icon-dark {
   @extend %logo-icon;
   -webkit-font-smoothing: antialiased;
-  @include background(linear-gradient(top left, $tertiary, $quadrary));
-  background-color: $quadrary;
+  @include dark-background;
   color: $secondary;
   @include box-shadow(0 0 0 .05em rgba($secondary, .5));
 }

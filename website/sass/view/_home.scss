@@ -1,0 +1,25 @@
+.v-home {
+  hgroup {
+    text-align: center;
+    * {
+      font-family: $text;
+      display: inline-block;
+    }
+    :first-child:after {
+      content: " / ";
+    }
+  }
+  p {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3, article>ul {
+    text-align: center;
+  }
+  article>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -11,15 +11,19 @@ h1 {
 }
 
 h2 {
-  border-top: 3px solid $secondary;
+  article > & {
+    border-top: 3px solid $secondary;
+    padding-top: .3em;
+  }
   font-size: ms(1.5);
-  padding-top: .3em;
 }
 
 h3 {
-  border-top: 2px solid $secondary;
+  article > & {
+    border-top: 2px solid $secondary;
+    padding-top: .3em;
+  }
   font-size: ms(1);
-  padding-top: .3em;
 }
 
 h4 {

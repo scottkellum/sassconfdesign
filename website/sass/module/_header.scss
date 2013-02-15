@@ -1,7 +1,12 @@
 header {
+  @extend %logo-lockup-dark;
+  padding: 0;
+  margin-bottom: ms(-1);
+  border-bottom: ms(-5) solid rgba($secondary, .5);
   h1 {
     font-size: 1em;
   }
-  border: 0 solid rgba($secondary, .5);
-  border-width: 0 0 .1em 0;
+  a:hover {
+    text-decoration: none;
+  }
 }

@@ -1,6 +1,27 @@
 footer {
+  @include pie-clearfix;
   @include background(linear-gradient(top left, $tertiary, $quadrary));
   background-color: $quadrary;
   border: 0 solid rgba($secondary, .5);
   border-width: .1em 0 0 0;
+  h4 {
+    color: $secondary;
+    border-bottom: 1px solid $secondary;
+    padding-bottom: ms(-2);
+  }
+  ul {
+    list-style: none;
+    float: left;
+  }
+  &:before {
+    @extend %logo-icon-dark;
+    content: "Sass Conf";
+    display: block;
+    margin: ms(-1) auto;
+    background: $background-color;
+    @include breakpoint($medium) {
+      float: right;
+      margin: ms(-1) 10% ms(-1) 5%;
+    }
+  }
 }
