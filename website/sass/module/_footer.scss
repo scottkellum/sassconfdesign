@@ -6,7 +6,7 @@ footer {
   border-width: .1em 0 0 0;
   font-size: ms(-1);
   -webkit-font-smoothing: antialiased;
-  padding: 0 0 ms(3) 0;
+  padding: ms(1) 0 ms(3) 0;
   h4 {
     color: $background-color;
     border-bottom: 1px solid rgba($secondary, .4);
@@ -34,11 +34,11 @@ footer {
     @extend %logo-icon-dark;
     content: "Sass Conf";
     display: block;
-    margin: ms(-1) auto;
+    margin: 0 auto;
     background: $background-color;
     @include breakpoint($medium) {
       float: right;
-      margin: ms(-1) 10% ms(-1) 5%;
+      margin: 0 10% 0 5%;
     }
   }
 }
