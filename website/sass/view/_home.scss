@@ -1,9 +1,14 @@
 .v-home {
   hgroup {
     text-align: center;
+    margin: ms(2) 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ff006a;
     * {
-      font-family: $text;
       display: inline-block;
+      @extend h3;
+      line-height: 1;
+      margin: 0;
     }
     :first-child:after {
       content: " / ";

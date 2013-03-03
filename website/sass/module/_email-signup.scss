@@ -1,31 +1,32 @@
+$email-background: set-lightness($secondary, 98%);
+$email-color: $tertiary;
+
 #mc_embed_signup {
   text-align: center;
   display: block;
   margin: 2em auto;
-  max-width: 20em;
-  height: 20em;
-  color: $secondary;
-  padding-top: 7em;
-  @include dark-background;
-  @include box-shadow(0 0 0 ms(-3) rgba($secondary, .6));
-  border-radius: 50%;
+  color: $email-color;
+  padding: ms(1) 0;
+  border-radius: ms(-2);
+  background-color: $email-background;
+  max-width: 40em;
   input {
     border: none;
     background: none;
     font-family: inherit;
-    color: $secondary;
+    color: $email-color;
     text-align: center;
     display: inline-block;
     &[type="email"] {
-      border: ms(-4) solid rgba($secondary, .6);
-      border-radius: 1em;
+      border: ms(-4) solid rgba($email-color, .6);
+      border-radius: ms(-3);
       padding: ms(-2);
       margin: ms(0);
-      background-color: rgba($secondary, .2);
+      background-color: $background-color;
       width: 100%;
       max-width: 16em;
       &:focus {
-        box-shadow: 0 0 6px rgba($secondary, .6);
+        box-shadow: 0 0 6px rgba($email-color, .6);
       }
     }
     &[type="submit"]:hover {
@@ -33,6 +34,6 @@
     }
   }
   ::-webkit-input-placeholder {
-    color: $secondary;
+    color: rgba(0, 0, 0, 0.3);
   }
 }
