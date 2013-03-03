@@ -22,7 +22,12 @@ footer {
   }
   li {
     a, a:link, a:visited, a:active {
-      color: tint($secondary, 20%);
+      color: tint($secondary, 80%);
+      @include transition(color .25s);
+    }
+    a:hover {
+      color: tint($secondary, 0%);
+      text-decoration: none;
     }
   }
   &:before {
