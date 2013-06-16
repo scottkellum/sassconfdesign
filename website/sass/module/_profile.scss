@@ -1,0 +1,51 @@
+.profiles {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  @include clearfix;
+  .profile {
+    margin: ms(0) 0 ms(0) 0;
+    @include breakpoint(ms(8)) {
+      float: left;
+      width: 48%;
+      margin-right: 4%;
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+    }
+    @include breakpoint(ms(9)) {
+      width: 31%;
+      margin-right: 3%;
+      &:nth-child(even) {
+        margin-right: 4%;
+      }
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+    }
+  }
+  .icon {
+    border-radius: 50%;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    @include box-shadow(0 0 0 ms(-3) rgba($secondary, .5));
+  }
+  h3, h6, h5 {
+    text-align: center;
+  }
+  h3 + * {
+    margin-top: -1 * ms(-1);
+  }
+  h5 {
+    font-family: $text;
+    text-transform: uppercase;
+    font-size: ms(-.5);
+    letter-spacing: .1em;
+  }
+  .name {
+    
+  }
+  .occupation {
+  }
+}
