@@ -14,13 +14,15 @@
       }
     }
     @include breakpoint(ms(9)) {
-      width: 31%;
-      margin-right: 3%;
-      &:nth-child(even) {
-        margin-right: 4%;
-      }
-      &:nth-child(3n+3) {
-        margin-right: 0;
+      &:not(.keynote) {
+        width: 31%;
+        margin-right: 3%;
+        &:nth-child(even) {
+          margin-right: 4%;
+        }
+        &:nth-child(3n+3) {
+          margin-right: 0;
+        }
       }
     }
   }
@@ -44,7 +46,7 @@
     letter-spacing: .1em;
   }
   .name {
-    
+
   }
   .occupation {
   }
