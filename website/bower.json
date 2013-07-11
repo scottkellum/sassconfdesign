@@ -1,0 +1,8 @@
+{
+  "name": "SassConf",
+  "version": "0.0.0",
+  "dependencies": {
+    "Element.details": "termi/Element.details"
+  },
+  "devDependencies": {}
+}
