@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   @include clearfix;
+
   .profile {
     margin: ms(0) 0 ms(0) 0;
     @include breakpoint(ms(8)) {
@@ -23,6 +24,9 @@
         &:nth-child(3n+3) {
           margin-right: 0;
         }
+	&:nth-child(3n+1) {
+	  clear: both;
+	}
       }
     }
   }
@@ -49,5 +53,10 @@
 
   }
   .occupation {
+  }
+
+  summary::-webkit-details-marker,
+  .details-marker {
+    display: none;
   }
 }
