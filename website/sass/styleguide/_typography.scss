@@ -43,6 +43,8 @@ hr {
   height: ms(-4);
   @include background(linear-gradient(top left, $secondary, $tertiary));
   @include transform(skew(-45deg));
+  border-top-right-radius: ms(-4);
+  border-bottom-left-radius: ms(-4);
 }
 
 %dark {
