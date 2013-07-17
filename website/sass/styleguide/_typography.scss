@@ -38,6 +38,13 @@ h6 {
   font-size: 1em;
 }
 
+hr {
+  border: none;
+  height: ms(-4);
+  @include background(linear-gradient(top left, $secondary, $tertiary));
+  @include transform(skew(-45deg));
+}
+
 %dark {
   background: $quadrary;
   color: #fff;
