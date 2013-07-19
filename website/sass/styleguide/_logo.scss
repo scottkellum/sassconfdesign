@@ -17,6 +17,9 @@
   padding: .5em;
   &:before {
     content: "S";
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
     font-weight: 400;
     font-family: sassconf;
     display: block;
