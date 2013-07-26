@@ -3,6 +3,7 @@
 require 'compass'
 require 'toolkit'
 require 'color-schemer'
+require 'modular-scale'
 
 # Set this to the root of your project when deployed:
 sass_dir         = "sass"
