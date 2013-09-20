@@ -7,3 +7,7 @@ gem "middleman-blog", "~> 3.3.0"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+gem 'color-schemer',      ">= 0.2.1" 
+gem 'toolkit',            ">= 0.2.3" 
+gem 'modular-scale', 	  ">=1.0.6"

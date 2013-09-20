@@ -1,0 +1,47 @@
+header {
+  @extend %logo-lockup-dark;
+  padding: 0;
+  margin-bottom: ms(-1);
+  border-bottom: ms(-5) solid rgba($secondary, .5);
+  text-shadow: 0 0 ms(-2) $quadrary;
+  * {
+    z-index: 1;
+  }
+  font-size: ms(1);
+  h1 {
+    font-size: 1em;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  div {
+    position: absolute;
+    top: -1 * ms(-4);
+    width: 100%;
+    height: 0;
+    padding-bottom: percentage(224/1000);
+    z-index: 0;
+    display: none;
+    border-bottom: ms(-4) solid $secondary;
+    background-color: $tertiary;
+    background-image: url('/lib/img/header.svg');
+    @include background-size(cover);
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @include breakpoint(ms(8)) {
+    background: none;
+    border-bottom: none;
+    font-size: 4.5vw;
+    padding-bottom: 2%;
+    div {
+      display: block;
+    }
+  }
+}

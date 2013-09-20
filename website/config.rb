@@ -33,11 +33,14 @@ page "/feed.xml", :layout => false
 
 # Susy grids in Compass
 # First: gem install susy
-# require 'susy'
+require 'toolkit'
+require 'color-schemer'
+require 'modular-scale'
+require 'singularitygs'
 
 # Change Compass configuration
 # compass_config do |config|
-#   config.output_style = :compact
+  config.output_style = :compressed
 # end
 
 ###
@@ -50,11 +53,13 @@ page "/feed.xml", :layout => false
 # page "/path/to/file.html", :layout => false
 # 
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
 # 
 # A path which all have the same layout
 # with_layout :admin do
-#   page "/admin/*"
+  page "/*", :layout => "layout/layout"
+  page "/blog/*", :layout => "layout/blog"
+  page "/calendar.html", :layout => "layout/blog"
+  page "/tag.html", :layout => "layout/blog"
 # end
 
 # Proxy (fake) files
