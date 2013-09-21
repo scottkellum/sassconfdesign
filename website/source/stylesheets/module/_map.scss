@@ -1,0 +1,28 @@
+.map {
+	overflow: hidden;
+	text-align: center;
+	background: url('http://maps.googleapis.com/maps/api/staticmap?center=40.723968,-73.998188&zoom=16&size=640x500&maptype=roadmap&markers=color:red%7Clabel:S%7C40.723968,-73.998188&sensor=false') center center;
+	@include background-size(cover);
+	h2 {
+		margin-top: ms(2);
+		text-shadow: 0 0 ms(-4) white;
+	}
+	a {
+		color: $tertiary;
+	}
+	// position: relative;
+	// height: 0;
+	// padding-top: 100%;
+	// overflow: hidden;
+	// @include breakpoint(40em) {
+	// 	padding-top: 50%;
+	// }
+	// iframe {
+	// 	position: absolute;
+	// 	top: 0;
+	// 	bottom: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// }
+	// border-bottom: ms(-4) solid $secondary;
+}

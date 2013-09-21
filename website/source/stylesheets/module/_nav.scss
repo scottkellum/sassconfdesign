@@ -23,6 +23,10 @@ $nav-breakpoint: 40em;
         }
       }
     }
+    &:hover {
+      text-decoration: none;
+      background: $secondary;
+    }
   }
   button {
     display: block;
@@ -62,7 +66,6 @@ $nav-breakpoint: 40em;
       background: none;
       &.tickets, &:hover {
         background: $secondary;
-        text-decoration: none;
       }
     }
     button {

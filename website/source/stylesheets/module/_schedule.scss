@@ -1,0 +1,106 @@
+$schedule-sessions: 10;
+
+.schedule {
+	&, li, h2, h3 {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		padding: 1em;
+	}
+	.day {
+		background: $secondary;
+		* {
+			color: white;
+		}
+	}
+	h3 {
+		font-family: $text;
+		font-size: ms(0);
+		letter-spacing: .2em;
+		margin-top: ms(-3);
+	}
+	.session {
+		display: table;
+		width: 100%;
+		@include pie-clearfix;
+		* {
+			color: white;
+		}
+		h3 {
+			text-transform: uppercase;
+			opacity: .8;
+			margin-top: ms(-1);
+		}
+		background: $quadrary;
+    @for $i from 0 through $schedule-sessions {
+      &:nth-child(#{$schedule-sessions}n+#{$i + 1}) {
+        background: mix($secondary, $quadrary, 100% / ($schedule-sessions + 1) * ($i * -1 + $schedule-sessions))
+      }
+    }
+    h2, h3, .time {
+    	text-align: center;
+	    @include breakpoint(50em) {
+	    	text-align: left;
+	    }
+    }
+	}
+	img {
+		display: block;
+		border-radius: 50%;
+		margin: 0 auto 7.5% auto;
+		// border: ms(-3) solid $secondary;
+		width: 60%;
+		max-width: (390px / 2);
+		@include box-shadow(0 0 0 ms(-3) $secondary);
+	}
+  .description {
+  	font-size: ms(-.5);
+  	max-width: 40em;
+  	@include breakpoint(40em) {
+  		font-size: 1em;
+  	}
+  }
+  .time {
+  	font-size: ms(1);
+  	font-weight: 600;
+  	@include breakpoint(60em) {
+  		display: table-cell;
+  		vertical-align: middle;
+  		padding: 0 1em;
+  		span, span:after {
+  			display: block;
+  			text-align: center;
+  		}
+  	}
+  }
+  .start:after {
+  	font-weight: 400;
+  	content: " to";
+  }
+  @include breakpoint(50em) {
+  	.session {
+	  	padding-left: ms(5) + 1em;
+  	}
+		img {
+			float: left;
+			margin: 0 0 0 (ms(5) * -1);
+		}
+  }
+  .session.pannel {
+  	.pannelimgs {
+  		display: block;
+  		text-align: center;
+  		margin-bottom: 1em;
+  		@include pie-clearfix;
+  	}
+  	img {
+  		width: 20%;
+  		max-width: 100px;
+  		margin: 0 2%;
+  		display: inline-block;
+  	}
+  	padding: 1em;
+  }
+}
