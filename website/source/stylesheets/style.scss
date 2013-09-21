@@ -1,0 +1,52 @@
+@import "compass";
+@import "color-schemer";
+@import "breakpoint";
+@import "modular-scale";
+@import "toolkit";
+
+@import "normalize";
+
+////////////////////////////////////////////
+// BREAKPOINTS
+
+$xsmall: 16em;
+$small:  24em;
+$medium: 32em;
+$large:  48em;
+$xlarge: 64em;
+
+////////////////////////////////////////////
+// COLORS
+
+$cs-primary:           #EA00FF;
+$cs-scheme:            analogic;
+$cs-hue-offset:        40;
+$cs-brightness-offset: 10;
+$cs-color-model:       rgb;
+
+$primary:   darken(cs-primary(), 5%);
+$secondary: cs-secondary();
+$tertiary:  shade(cs-quadrary(), 65%);
+$quadrary:  desaturate(shade(cs-tertiary(), 65%), 60%);
+
+$background-color: #fff;
+$text-color: $quadrary;
+
+////////////////////////////////////////////
+// TYPOGRAPHY
+
+$display: "skolar", Georgia, serif;
+$text: "Alright Sans", Verdana, sans-serif;
+$monospace: "source-code-pro", monospace;
+
+// for modular-scale
+$base-size: 1em;
+
+////////////////////////////////////////////
+// OTHER SETTINGS
+
+$radius: 4px;
+
+@import "styleguide";
+@import "module";
+@import "view";

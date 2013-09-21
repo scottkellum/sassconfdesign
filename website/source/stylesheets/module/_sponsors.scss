@@ -1,0 +1,38 @@
+.sponsors {
+  text-align: center;
+  a {
+    opacity: .66;
+    @include filter(grayscale(100%));
+    @include transition(all .5s);
+    &:hover {
+      opacity: 1;
+      @include filter(grayscale(0%));
+    }
+  }
+  div {
+    margin-bottom: 3em;
+    &:empty {
+      display: none;
+    }
+  }
+  .xl img {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 5%;
+  }
+  .l img {
+    width: 60%;
+    max-width: 250px;
+    margin: 0 5%;
+  }
+  .m img {
+    width: 50%;
+    max-width: 200px;
+    margin: 0 5%;
+  }
+  .s img {
+    width: 40%;
+    max-width: 100px;
+    margin: 0 5%;
+  }
+}
