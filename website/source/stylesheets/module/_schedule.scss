@@ -69,6 +69,10 @@ $schedule-sessions: 10;
   		display: table-cell;
   		vertical-align: middle;
   		padding: 0 1em;
+  		span {
+  			border-left: 1px solid rgba(255,255,255,0.25);
+  			padding-left: 1em;
+  		}
   		span, span:after {
   			display: block;
   			text-align: center;
