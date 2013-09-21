@@ -7,7 +7,7 @@ html {
   @include breakpoint($large) { font-size: percentage(20 / 16); }
 }
 
-body {
+html, body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
