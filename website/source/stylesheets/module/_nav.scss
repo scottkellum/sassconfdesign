@@ -1,0 +1,72 @@
+$items-in-menu: 5;
+$nav-breakpoint: 40em;
+
+.m-main-nav {
+  overflow: hidden;
+  background-color: $tertiary;
+  input {
+    display: none;
+  }
+  a {
+    display: block;
+    color: white;
+    padding: 1em;
+    @include transition(all .5s);
+    line-height: 1em;
+    opacity: 0;
+    height: 3em;
+    margin: -3em 0 0 0;
+    @include breakpoint(max-width $nav-breakpoint) {
+      @for $i from 0 through $items-in-menu {
+        &:nth-child(#{$i + 1}) {
+          background-color: mix($secondary, $tertiary, 100% / ($items-in-menu + 1) * $i)
+        }
+      }
+    }
+  }
+  button {
+    display: block;
+    border: none;
+    background-color: $secondary;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+    text-align: left;
+    &:before {
+      content: "Show ";
+    }
+  }
+  input:checked ~ {
+    button:before {
+      content: "Hide ";
+    }
+    a {
+      opacity: 1;
+      height: auto;
+      min-height: 3em;
+      margin: 0;
+    }
+  }
+  @include breakpoint($nav-breakpoint) {
+    &, label {
+      display: table;
+      width: 100%;
+    }
+    a {
+      display: table-cell;
+      margin: 0;
+      padding: 1em 1em .5em 1em;
+      opacity: 1;
+      width: 100% / $items-in-menu;
+      background: none;
+      &.tickets, &:hover {
+        background: $secondary;
+        text-decoration: none;
+      }
+    }
+    button {
+      display: none;
+    }
+  }
+}
