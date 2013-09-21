@@ -56,10 +56,10 @@ require 'singularitygs'
 # 
 # A path which all have the same layout
 # with_layout :admin do
-  page "/*", :layout => "layout/layout"
-  page "/blog/*", :layout => "layout/blog"
-  page "/calendar.html", :layout => "layout/blog"
-  page "/tag.html", :layout => "layout/blog"
+  page "/*", :layout => "layout/_layout"
+  page "/blog/*", :layout => "layout/_blog"
+  page "/calendar.html", :layout => "layout/_blog"
+  page "/tag.html", :layout => "layout/_blog"
 # end
 
 # Proxy (fake) files
