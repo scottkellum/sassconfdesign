@@ -1,23 +1,5 @@
 .sponsors {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   text-align: center;
-  @include clearfix;
-  .sponsor {
-    text-align: center;
-    display: inline-block;
-    font-size: 0;
-    @include breakpoint(ms(8)) {
-      width: 49%;
-    }
-    @include breakpoint(ms(9)) {
-      width: 33%;
-    }
-  }
-  img {
-    width: 75%;
-  }
   a {
     opacity: .66;
     @include filter(grayscale(100%));
@@ -26,5 +8,31 @@
       opacity: 1;
       @include filter(grayscale(0%));
     }
+  }
+  div {
+    margin-bottom: 3em;
+    &:empty {
+      display: none;
+    }
+  }
+  .xl img {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 5%;
+  }
+  .l img {
+    width: 60%;
+    max-width: 250px;
+    margin: 0 5%;
+  }
+  .m img {
+    width: 50%;
+    max-width: 200px;
+    margin: 0 5%;
+  }
+  .s img {
+    width: 40%;
+    max-width: 100px;
+    margin: 0 5%;
   }
 }
