@@ -51,7 +51,7 @@ $schedule-sessions: 10;
 		border-radius: 50%;
 		margin: 0 auto 7.5% auto;
 		// border: ms(-3) solid $secondary;
-		width: 60%;
+		width: 40%;
 		max-width: (390px / 2);
 		@include box-shadow(0 0 0 ms(-3) $secondary);
 	}

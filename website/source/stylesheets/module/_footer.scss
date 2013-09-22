@@ -1,16 +1,16 @@
 footer {
   @include pie-clearfix;
-  @include background(linear-gradient(top left, $tertiary, $quadrary));
   background-color: $quadrary;
-  border: 0 solid rgba($secondary, .5);
-  border-width: .1em 0 0 0;
+  background-image: url('/lib/img/header.svg');
+  @include background-size(cover);
+  background-position: center;
+  border-top: ms(-3) solid $secondary;
   font-size: ms(-1);
   -webkit-font-smoothing: antialiased;
   padding: ms(1) 0 ms(3) 0;
   h4 {
     color: $background-color;
-    border-bottom: 1px solid rgba($secondary, .4);
-    padding-bottom: ms(-2);
+    // border-bottom: 1px solid rgba($secondary, .4);
     a, a:link, a:visited, a:active {
       color: inherit;
     }

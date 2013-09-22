@@ -1,0 +1,39 @@
+.venue {
+	h1, h3 {
+		text-align: center;
+		color: $quadrary;
+	}
+	h1 {
+		margin-bottom: ms(-4);
+	}
+	h3 {
+		font-family: $text;
+		padding-top: 0;
+		border-top: none;
+		margin-top: 0;
+	}
+	.venue-map {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-bottom: 100%;
+		@include breakpoint(40em) {
+			padding-bottom: 50%;
+		}
+		overflow: hidden;
+		iframe {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			bottom: 0;
+		}
+	}
+	.airbnb {
+		padding: 10%;
+		text-align: center;
+		img {
+			width: 60%;
+		}
+	}
+}
