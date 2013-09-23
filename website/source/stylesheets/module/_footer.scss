@@ -18,7 +18,7 @@ footer {
   ul {
     list-style: none;
     float: left;
-    padding: 0 0 0 ms(2);
+    padding: 0 0 ms(1) ms(2);
   }
   li {
     a, a:link, a:visited, a:active {
@@ -40,5 +40,10 @@ footer {
       float: right;
       margin: 0 10% 0 5%;
     }
+  }
+  p {
+    padding: 0 0 0 ms(2);
+    color: tint($secondary, 80%);
+    clear: left;
   }
 }
