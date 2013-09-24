@@ -45,6 +45,50 @@ $schedule-sessions: 10;
 	    	text-align: left;
 	    }
     }
+    $keynote-color: $secondary;
+    $keynote-opacity: .25;
+    $keynote-size: 1em;
+    &.keynote {
+      text-shadow: 0 .1em .5em $tertiary;
+      p {
+        font-size: 1em;
+      }
+      &:before {
+        content: "KEYNOTE";
+        color: white;
+        background-color: rgba(#000, .5);
+        border-top: 1px solid rgba(#000, .75);
+        border-bottom: 1px solid rgba($secondary, .75);
+        border-radius: .25em;
+        display: block;
+        text-align: center;
+        letter-spacing: .3em;
+        padding: .5em .75em .25em .75em;
+        margin: 0 0 1em 0;
+        @include background-image(
+          linear-gradient(
+            top left,
+            rgba($keynote-color, 0) 33.333%/2,
+            rgba($keynote-color, $keynote-opacity) 33.333%/2,
+            rgba($keynote-color, $keynote-opacity) 33.333%,
+            rgba($keynote-color, 0) 33.333%,
+            rgba($keynote-color, 0) 33.333%*2,
+            rgba($keynote-color, $keynote-opacity) 33.333%*2,
+            rgba($keynote-color, $keynote-opacity) 33.333%*2.5,
+            rgba($keynote-color, 0) 33.333%*2.5
+          )
+        );
+        background-size: $keynote-size $keynote-size;
+      }
+    }
+    &.over {
+      @include filter(grayscale(100%));
+      opacity: .5;
+      @include transition(all .5s);
+      &:hover {
+        opacity: 1;
+      }
+    }
 	}
 	img {
 		display: block;
@@ -82,6 +126,7 @@ $schedule-sessions: 10;
   .start:after {
   	font-weight: 400;
   	content: " to";
+    opacity: .75;
   }
   @include breakpoint(50em) {
   	.session {
@@ -102,7 +147,7 @@ $schedule-sessions: 10;
   	img {
   		width: 20%;
   		max-width: 100px;
-  		margin: 0 2%;
+  		margin: 0 2% 2% 2%;
   		display: inline-block;
   	}
   	padding: 1em;
