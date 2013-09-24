@@ -1,9 +1,3 @@
-<a href="https://maps.google.com/maps?q=Scholastic+Auditorium&hl=en&ll=40.72386,-74.001868&spn=0.011562,0.00736&cid=5745950823002065201&gl=US&t=m&z=16" class="map">
-  <h2>
-  Scholastic Auditorium
-  </h2>
-</a>
-
 <article class="about">
   <h1>Two-Day single track conference lead by the most creative minds in the industry.</h1>
 
@@ -14,8 +8,38 @@
 </article>
 
 
+  <h2>Keynotes</h2>
 
+  <ul class="schedule">
+    <li class="session">
+      <img src="/lib/img/speakers/chriseppstein.jpg" alt=" ">
+      <h2 class="name">It Takes a Village to Raise a Website</h2>
+      <h3 class="speaker">Chris Eppstein</h3>
+      <p class="description">Chris will talk about the guiding principles that have gotten Sass to where it is today, the vision for where it is going, and how we can't get there without amazing people like you. Together we can make the the entire web a better place for users, designers and developers.</p>
+      <div class="time day">
+          <h2>Saturday</h2>
+          <h3>October 12</h3>
+      </div>
+    </li>
+    <li class="session">
+      <img src="/lib/img/speakers/hamptoncatlin.jpg" alt=" ">
+      <h2 class="name">The Front End Revolution: A Call to Arms</h2>
+      <h3 class="speaker">Hampton Catlin</h3>
+      <p class="description">Developing for the front end is fundamentally different than the backend and Let's talk an entirely new approach to the problems we face on the front end, problems which are distinct than the backend solutions we have grown used to. Traditionally minded programmers welcome, but this talk is a siren song for those whose main weapons are HTML, Sass and maybe a touch of Javascript. This is a declaration of independence from the backend.</p>
+      <div class="time day">
+          <h2>Sunday</h2>
+          <h3>October 13</h3>
+      </div>
+    </li>
+  </ul>
 
+<a href="https://maps.google.com/maps?q=Scholastic+Auditorium&hl=en&ll=40.72386,-74.001868&spn=0.011562,0.00736&cid=5745950823002065201&gl=US&t=m&z=16" class="map">
+  <h2>
+  Scholastic Auditorium
+  </h2>
+</a>
+
+<<<<<<< HEAD
 <ul class="schedule">
   <li class="day">
     <h2>Saturday</h2>
@@ -323,6 +347,10 @@
     </div>
   </li>
 </ul>
+=======
+
+
+>>>>>>> wip feature keynotes and copy about, maybe
 <article>
   <section id="updates" class="updates">
 
