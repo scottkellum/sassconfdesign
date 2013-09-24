@@ -1,8 +1,15 @@
 header {
-  h1 {
-    @extend %logo-lockup-dark;
+  hgroup {
     padding: 5% 0;
+    @extend %logo-lockup-dark;
+  }
+  h1 {
     margin: 0;
+    font-size: inherit;
+  }
+  h2 {
+    color: $primary;
+    font-size: inherit;
   }
   border-bottom: ms(-4) solid $secondary;
 }
