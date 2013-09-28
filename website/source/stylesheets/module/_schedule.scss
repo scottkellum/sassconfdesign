@@ -39,11 +39,34 @@ $schedule-sessions: 10;
         background: mix($secondary, $quadrary, 100% / ($schedule-sessions + 1) * ($i * -1 + $schedule-sessions))
       }
     }
-    h2, h3, .time {
+    h2, h3, .time, .social {
     	text-align: center;
 	    @include breakpoint(50em) {
 	    	text-align: left;
 	    }
+    }
+    h3.occupation {
+      font-size: .8em;
+    }
+    .social {
+      font-family: uikitregular;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      text-transform: none;
+      letter-spacing: .25em;
+      font-size: ms(2);
+      margin-top: ms(-2);
+      @include breakpoint(50em) {
+        font-size: ms(1);
+        margin-top: ms(-1);
+      }
+      a {
+        opacity: .75;
+        &:hover {
+          text-decoration: none;
+          opacity: 1;
+        }
+      }
     }
     $keynote-color: $secondary;
     $keynote-opacity: .25;
