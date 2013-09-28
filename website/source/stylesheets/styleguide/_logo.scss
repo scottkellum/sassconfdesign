@@ -1,10 +1,9 @@
 @font-face {
-  font-family: 'sassconf';
-    src: url('/lib/font/sassconflogo.eot');
-    src: url('/lib/font/sassconflogo.eot?#iefix') format('embedded-opentype'),
-    url('/lib/font/sassconflogo.woff') format('woff'),
-    url('/lib/font/sassconflogo.ttf')  format('truetype'),
-    url('sassconflogo.svg#sassconf_logoregular') format('svg');
+  font-family: 'uikitregular';
+    src: url('/lib/font/uikit.eot');
+    src: url('/lib/font/uikit.eot?#iefix') format('embedded-opentype'),
+    url('/lib/font/uikit.woff') format('woff'),
+    url('/lib/font/uikit.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +20,7 @@
     pointer-events: none;
     z-index: 1;
     font-weight: 400;
-    font-family: sassconf;
+    font-family: uikitregular;
     display: block;
     font-size: 2em;
     margin: 0 0 .2em 0;
@@ -40,7 +39,7 @@
 
 %logo-icon {
   display: inline-block;
-  font-family: sassconf;
+  font-family: uikitregular;
   font-size: 4em;
   color: $primary;
   padding: .25em;
