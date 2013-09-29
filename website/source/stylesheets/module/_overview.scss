@@ -1,0 +1,9 @@
+.details {
+  display: table;
+  width: 100%;
+  li {
+    float: left;
+    display: inline-block;
+    width: 33%;
+  }
+}
