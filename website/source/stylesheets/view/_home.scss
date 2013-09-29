@@ -6,6 +6,9 @@
 		li {
 			border-radius: ms(-2);
 			margin: .5em 0;
+			&.session {
+				background-color: mix($tertiary, $secondary);
+			}
 			@include breakpoint(60em) {
 				width: 49%;
 				float: left;
