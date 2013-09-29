@@ -1,0 +1,7 @@
+neighborhoods:
+  - name: Nolita
+    link: http://google.com/
+    distance: Short walk
+  - name: East Village
+    link:
+    distance: 20-30 minute walk

@@ -1,21 +1,32 @@
 <article class="venue">
-
-	<h1>Schoolastic Auditorium</h1>
+	<h1>Scholastic Auditorium</h1>
 	<h3>557 Broadway, New York, NY 10012</h3>
 
 	<div class="venue-map">
 		<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=scholastic+auditorium&amp;fb=1&amp;gl=us&amp;hq=scholastic+auditorium&amp;hnear=0x89c24fa5d33f083b:0xc80b8f06e177fe62,New+York,+NY&amp;cid=0,0,5745950823002065201&amp;ll=40.723993,-73.998302&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"></iframe>
 	</div>
 
-	<h1>Nesteled in the heart of SoHo</h1>
+	<section>
+		<h1>Nesteled in the heart of SoHo</h1>
+		<p>Conviniently located in trendy downtown Manhattan, Scholastic Auditorium is easily accessible from any part of the city and provides great access to some of the cities best attractions, coolest spots. Stay in SoHo or explore nearby neighbordhoods just a short walk or train ride away.</p>
 
-	<p>Conviniently located in dowtown Mahattan it is easy to get to and from the venue with ease. Stay in SoHo or explore nearby neighbordhoods just a short walk or train ride away.</p>
+		<h3>Recommend Neighborhoods</h3>
+
+	  <ul>
+	    <% data.venue.neighborhoods.each do |f| %>
+	    <li>
+	      <h3><a href="<%= f.link %>"><%= f.name %></a></h3>
+	      <p><%= f.distance %></p>
+	    </li>
+	    <% end %>
+	  </ul>
+	 </section>
 
 	<div class="accomodation">
 		<a href="https://www.airbnb.com/s/New-York--NY?checkin=10%2F12%2F2013&checkout=10%2F13%2F2013&source=bb">
 			<img src="/lib/img/airbnb-logo.jpg" alt="Airbnb"><br>
 			<h4>Find rooms on Airbnb</h4>
-			<p>Our personal recommendation. Live like a New Yorker for a couple days. We recommend the following neighborhoods:</p>
+			<p>Our personal recommendation. Live like a New Yorker for a couple days.</p>
 		</a>
 	</div>
 
