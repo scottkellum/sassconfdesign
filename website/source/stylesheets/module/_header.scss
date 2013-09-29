@@ -8,8 +8,10 @@ header {
     font-size: inherit;
   }
   h2 {
-    color: $primary;
-    font-size: inherit;
+    color: $secondary;
+    font-family: $text;
+    font-size: ms(-1);
+    margin: 0;
   }
   border-bottom: ms(-4) solid $secondary;
 }
