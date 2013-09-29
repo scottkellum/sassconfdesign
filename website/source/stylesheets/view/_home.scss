@@ -1,8 +1,4 @@
 .v-home {
-  background-image: url('/lib/img/bkg.svg');
-  @include background-size(cover);
-  background-position: center;
-  background-attachment: fixed;
 	p {
 		max-width: 40em;
 		margin-left: auto;

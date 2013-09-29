@@ -5,6 +5,12 @@ html {
   line-height: 1.4;
   @include breakpoint($small)  { font-size: percentage(18 / 16); }
   @include breakpoint($large) { font-size: percentage(20 / 16); }
+  @include breakpoint(40em) {
+    background-image: url('/lib/img/bkg.svg');
+    @include background-size(cover);
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 
 html, body {
