@@ -60,10 +60,10 @@ $nav-breakpoint: 40em;
     a {
       display: table-cell;
       margin: 0;
-      padding: 1em 1em .5em 1em;
       opacity: 1;
       width: 100% / $items-in-menu;
       background: none;
+      vertical-align: middle;
       &.tickets, &:hover {
         background: $secondary;
       }
