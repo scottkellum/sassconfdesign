@@ -4,6 +4,7 @@
 	display: block;
 	background: url('http://maps.googleapis.com/maps/api/staticmap?center=40.723968,-73.998188&zoom=16&size=640x500&maptype=roadmap&markers=color:red%7Clabel:S%7C40.723968,-73.998188&sensor=false') center center;
 	@include background-size(cover);
+	border-bottom: ms(-4) solid $secondary;
 	h2 {
 		margin-top: ms(2);
 		text-shadow: 0 0 ms(-4) white;

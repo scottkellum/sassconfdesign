@@ -1,5 +1,13 @@
 .v-home {
-
+  background-image: url('/lib/img/bkg.svg');
+  @include background-size(cover);
+  background-position: center;
+  background-attachment: fixed;
+	p {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.schedule {
 		padding-bottom: ms(1);
 		@include pie-clearfix;
@@ -22,6 +30,19 @@
 		}
 		img {
 			margin-bottom: 1em;
+		}
+	}
+	
+	h1.first {
+		@include breakpoint(40em) {
+			background-color: $tertiary;
+			color: white;
+			text-align: center;
+			margin: 0 -1em;
+			padding: 5%;
+			position: relative;
+			border-bottom-left-radius: ms(-4);
+			border-bottom-right-radius: ms(-4);
 		}
 	}
 

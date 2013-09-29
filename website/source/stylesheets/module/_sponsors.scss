@@ -1,6 +1,7 @@
 .sponsors {
   text-align: center;
   border-top: ms(-4) solid $secondary;
+  background-color: white;
   a {
     opacity: .66;
     @include filter(grayscale(100%));
