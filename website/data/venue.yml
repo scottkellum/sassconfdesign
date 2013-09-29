@@ -14,7 +14,7 @@ neighborhoods:
   - name: Flatiron
     link: https://www.airbnb.com/locations/new-york/flatiron-district
     distance: 10 min train
-  - name: Greenpoint
+  - name: Williamsburg
     link:
     distance: 20 min train
   - name: Downtown Brooklyn
