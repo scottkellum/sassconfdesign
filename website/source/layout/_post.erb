@@ -1,25 +1,16 @@
 <%= partial "partials/_head" %>
 <%= partial "partials/_header" %>
 <%= partial "partials/_nav" %>
-    
+
     <article class="blog post">
       <h1 class="hed"><%= data.page.title %></h1>
       <%= yield %>
 
-      <aside>
-        <h4>Recent Articles</h4>
-        <ol>
-          <% blog.articles[0...10].each do |article| %>
-            <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-          <% end %>
-        </ol>
-        <h4>By Year</h4>
-        <ol>
-          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-            <li><%= link_to year, blog_year_path(year) %> (<%= articles.size %>)</a></li>
-          <% end %>
-        </ol>
-      </aside>
+      <hr>
+
+      <p>SassConf is two-day conference, October 12-13th 2013 in SoHo NY, NY for the best CSS preprocessor and modern front-end development.</p>
+
+      <%= partial "partials/_blog" %>
     </article>
 
 <%= partial "partials/_footer" %>
