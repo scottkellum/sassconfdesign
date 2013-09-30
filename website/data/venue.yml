@@ -1,0 +1,28 @@
+neighborhoods:
+  - name: Nolita
+    link: https://www.airbnb.com/locations/new-york/nolita
+    distance: Short walk
+  - name: Union Square
+    link: https://www.airbnb.com/locations/new-york/union-square
+    distance: Short train / 5-10 min bike ride
+  - name: East Village/Alphabet City
+    link: https://www.airbnb.com/locations/new-york/east-village
+    distance: 25-30 minute walk / 10-15 min bike ride
+  - name: Lower East Side
+    link: https://www.airbnb.com/locations/new-york/lower-east-side
+    distance: 22-30 minute walk / 10-15 min bike ride
+  - name: Flatiron
+    link: https://www.airbnb.com/locations/new-york/flatiron-district
+    distance: 10 min train
+  - name: Williamsburg
+    link:
+    distance: 20 min train
+  - name: Downtown Brooklyn
+    link: https://www.airbnb.com/locations/new-york/downtown-brooklyn
+    distance: 25-30 minute train.
+  - name: Brooklyn Heights
+    link: https://www.airbnb.com/locations/new-york/brooklyn-heights
+    distance: 20 min train. Court St N, R
+  - name: Astoria
+    link: https://www.airbnb.com/locations/new-york/astoria
+    distance: 30 min train. Directly on N line.

@@ -1,18 +1,59 @@
 <article class="venue">
-
-	<h1>Schoolastic Auditorium</h1>
+	<h1>Scholastic Auditorium</h1>
 	<h3>557 Broadway, New York, NY 10012</h3>
 
 	<div class="venue-map">
 		<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=scholastic+auditorium&amp;fb=1&amp;gl=us&amp;hq=scholastic+auditorium&amp;hnear=0x89c24fa5d33f083b:0xc80b8f06e177fe62,New+York,+NY&amp;cid=0,0,5745950823002065201&amp;ll=40.723993,-73.998302&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"></iframe>
 	</div>
 
-	<div class="airbnb">
+	<section>
+		<h1>Nesteled in the heart of SoHo. Convinient access to all of New York City.</h1>
+		<p>Scholastic Auditorium is located near the <strong>Prince St. N, R</strong>, <strong>Broadway/Lafayette B,D,F,M</strong>, and the <strong>Spring St. 6</strong>. Stay in SoHo or explore nearby neighbordhoods just a short walk, train ride, or Citi Bike ride away.</p>
+
+
+		<h3>Recommend Neighborhoods</h3>
+		<p>The charm of New York lies in its neighborhoods. These are the place we would stay if we were coming to the city.</p>
+
+	  <table>
+	  	<thead>
+	  		<tr>
+	  			<td>Hood</td>
+	  			<td>Distance</td>
+	  		</tr>
+	  	</thead>
+	    <% data.venue.neighborhoods.each do |f| %>
+	    <tr>
+	      <td><a href="<%= f.link %>"><%= f.name %></a></td>
+	      <td><%= f.distance %></td>
+	    </tr>
+	    <% end %>
+	  </table>
+
+	  <p>Not our favorites, but you can get to and from the conference with ease: <a href="https://www.airbnb.com/locations/new-york/kips-bay">Kips Bay</a>, <a href="https://www.airbnb.com/locations/new-york/upper-east-side">Upper East Side</a>, <a href="https://www.airbnb.com/locations/new-york/times-square-theatre-district">Times Square/Theatre District</a>, <a href="https://www.airbnb.com/locations/new-york/financial-district">Financial District</a>.</p>
+
+	 </section>
+
+
+	<div class="accomodation">
 		<a href="https://www.airbnb.com/s/New-York--NY?checkin=10%2F12%2F2013&checkout=10%2F13%2F2013&source=bb">
 			<img src="/lib/img/airbnb-logo.jpg" alt="Airbnb"><br>
 			<h4>Find rooms on Airbnb</h4>
+			<p>Our personal favorite. Live like a New Yorker for a couple days.</p>
 		</a>
 	</div>
+
+	<div class="accomodation">
+			<h4>Hotels</h4>
+			<p>Lots of options in the area from standards to chic. HamptonInn SoHo has extended SassConf attendees 15% off.</p>
+		</a>
+	</div>
+
+	<div class="accomodation">
+			<h4>Personal Touch</h4>
+			<p>Overwhelmed by the options? Need a helping hand? Let us know. We can't make hotels any cheaper, but we can provide you with personal concierge. Let us help you with your travel plans. Email info@sassconf.com to get started.</p>
+		</a>
+	</div>
+
 
 	</article>
 </div>

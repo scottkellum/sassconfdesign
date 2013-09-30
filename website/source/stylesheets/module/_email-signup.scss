@@ -8,8 +8,9 @@ $email-color: $tertiary;
   color: $email-color;
   padding: ms(1) 0;
   border-radius: ms(-2);
-  background-color: $email-background;
+  background-color: rgba($email-background, .5);
   max-width: 40em;
+  border: ms(-4) solid $secondary;
   input {
     border: none;
     background: none;

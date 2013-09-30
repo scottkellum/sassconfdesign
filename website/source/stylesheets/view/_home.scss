@@ -1,38 +1,45 @@
 .v-home {
-  hgroup {
-    text-align: center;
-    margin: ms(2) 0;
-    padding-bottom: 1em;
-    border-bottom: 2px solid #ff006a;
-    h1, h2, h3, h4 {
-      display: inline-block;
-      @extend h3;
-      line-height: 1;
-      margin: 0;
-    }
-    > :first-child:after {
-      content: " / ";
-    }
-  }
-  p {
-    max-width: 40em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  h3, article>ul {
-    text-align: center;
-  }
-  article>ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-}
+	p {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.schedule {
+		padding-bottom: ms(1);
+		@include pie-clearfix;
+		li {
+			border-radius: ms(-2);
+			margin: .5em 0;
+			&.session {
+				background-color: mix($tertiary, $secondary);
+			}
+			@include breakpoint(60em) {
+				width: 49%;
+				float: left;
+				&:first-child {
+					margin-right: 2%;
+				}
+			}
+		}
+		h3 {
+			opacity: 1;
+		}
+		img {
+			margin-bottom: 1em;
+		}
+	}
+	
+	h1.first {
+		@include breakpoint(40em) {
+			background-color: $tertiary;
+			color: white;
+			text-align: center;
+			margin: 0 -1em;
+			padding: 5%;
+			position: relative;
+			border-bottom-left-radius: ms(-4);
+			border-bottom-right-radius: ms(-4);
+		}
+	}
 
-.sessions {
-  padding-top: 1em;
-  border-top: 2px solid #ff006a;
-
-  padding-bottom: 1em;
-  border-bottom: 2px solid #ff006a;
 }

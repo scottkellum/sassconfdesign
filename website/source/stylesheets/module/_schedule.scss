@@ -1,4 +1,4 @@
-$schedule-sessions: 10;
+$schedule-sessions: 12;
 
 .schedule {
 	&, li, h2, h3 {
@@ -41,9 +41,11 @@ $schedule-sessions: 10;
     }
     h2, h3, .time, .social {
     	text-align: center;
-	    @include breakpoint(50em) {
-	    	text-align: left;
-	    }
+      .v-schedule & {
+        @include breakpoint(50em) {
+          text-align: left;
+        }
+      }
     }
     h3.occupation {
       font-size: .8em;
@@ -151,14 +153,16 @@ $schedule-sessions: 10;
   	content: " to";
     opacity: .75;
   }
-  @include breakpoint(50em) {
-  	.session {
-	  	padding-left: ms(5) + 1em;
-  	}
-		img {
-			float: left;
-			margin: 0 0 0 (ms(5) * -1);
-		}
+  .v-schedule & {
+    @include breakpoint(50em) {
+      .session {
+        padding-left: ms(5) + 1em;
+      }
+      img {
+        float: left;
+        margin: 0 0 0 (ms(5) * -1);
+      }
+    }
   }
   .session.pannel {
   	.pannelimgs {
