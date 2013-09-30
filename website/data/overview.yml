@@ -1,0 +1,22 @@
+details:
+  - title: Single track in-depth talks
+    description: 10 great talks from fearless leaders in Sass, design, and development.
+  - title: UnConference
+    description: Want to speak? Have a passion project to share? Sign up on October 13th to lead your own session. Anything goes!
+  - title: Workshops
+    description: Hands on workshops lead by industry leaders covering everything you need to know to keep your arsenal stocked.
+  - title: SassHack
+    description: "It's up to us to make the community better. Meet the creative minds behind the most popular SASS tools for front-end developers and designers. Work on open source SASS projects. Let's set a record for most pull requests merged."
+  - title: Community
+    description: "First time the Sass community has come together. We're showing which pre-processor is here to stay. You're leaving your imprint by being here. Come shape the future."
+  - title: Knowledge is Power
+    description: "Sassy bookstore filled with titles from publishers we love."
+    url:
+      - href: http://google.com
+        title: Rosenfeld Media
+      - href: http://abookapart.com
+        title: A Book Apart
+      - href: http://pragmaticprogrammers.com
+        title: Pragmatic Bookshelf
+      - href: http://oreilly.com
+        title: "O'Reilly"
