@@ -14,14 +14,20 @@
 		<h3>Recommend Neighborhoods</h3>
 		<p>The charm of New York lies in its neighborhoods. These are the place we would stay if we were coming to the city.</p>
 
-	  <ul>
+	  <table>
+	  	<thead>
+	  		<tr>
+	  			<td>Hood</td>
+	  			<td>Distance</td>
+	  		</tr>
+	  	</thead>
 	    <% data.venue.neighborhoods.each do |f| %>
-	    <li>
-	      <h4><a href="<%= f.link %>"><%= f.name %></a></h4>
-	      <p><%= f.distance %></p>
-	    </li>
+	    <tr>
+	      <td><a href="<%= f.link %>"><%= f.name %></a></td>
+	      <td><%= f.distance %></td>
+	    </tr>
 	    <% end %>
-	  </ul>
+	  </table>
 
 	  <p>Not our favorites, but you can get to and from the conference with ease: <a href="https://www.airbnb.com/locations/new-york/kips-bay">Kips Bay</a>, <a href="https://www.airbnb.com/locations/new-york/upper-east-side">Upper East Side</a>, <a href="https://www.airbnb.com/locations/new-york/times-square-theatre-district">Times Square/Theatre District</a>, <a href="https://www.airbnb.com/locations/new-york/financial-district">Financial District</a>.</p>
 
