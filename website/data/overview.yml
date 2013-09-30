@@ -1,22 +1,27 @@
 details:
-  - title: Single track in-depth talks
-    description: 10 great talks from fearless leaders in Sass, design, and development.
+  - title: Single track
+    description: "In-depth, advanced talks from leaders in Sass, design, and development."
+    link: /schedule#day-1
   - title: UnConference
     description: Want to speak? Have a passion project to share? Sign up on October 13th to lead your own session. Anything goes!
+    link: /blog/2013/09/23/we-have-the-power.html
   - title: Workshops
-    description: Hands on workshops lead by industry leaders covering everything you need to know to keep your arsenal stocked.
+    description: Hands on workshops lead by industry leaders covering everything a sasy front-end developer and designer should know.
+    link: /schedule#day-2
   - title: SassHack
-    description: "It's up to us to make the community better. Meet the creative minds behind the most popular Sass tools for front-end developers and designers. Work on open source Sass projects. Let's set a record for most pull requests merged."
-  - title: Community
-    description: "First time the Sass community has come together. We're showing which pre-processor is here to stay. You're leaving your imprint by being here. Come shape the future."
+    description: "It's up to us to make the community better. Meet the creative minds behind the most popular Sass tools. Work on OSS Sass projects. Let's set a record for most pull requests merged."
+  - title: Make History
+    description: "The first time the Sass community has come together. We're showing the world which pre-processor is here to stay."
   - title: Knowledge is Power
-    description: "Sassy bookstore filled with titles from publishers we love."
+    description: "Sassy bookstore filled with titles from publishers we love. Exclusive deals and giveaways for attendees from"
     url:
       - href: http://google.com
-        title: Rosenfeld Media
+        title: Rosenfeld Media,
       - href: http://abookapart.com
-        title: A Book Apart
+        title: A Book Apart,
       - href: http://pragmaticprogrammers.com
-        title: Pragmatic Bookshelf
+        title: Pragmatic Bookshelf,
       - href: http://oreilly.com
-        title: "O'Reilly"
+        title: "O'Reilly,"
+      - href: http://manning.com
+        title: Manning Publications.
