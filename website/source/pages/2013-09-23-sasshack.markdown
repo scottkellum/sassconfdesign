@@ -1,0 +1,13 @@
+---
+title: SassHack
+date: 2013-09-23
+tags: about 
+---
+
+SassHack is open all day October 13th. Work on projects, get answers, pick up new tips, share your solutions, take the plunge and setup Sass. 
+
+If you want to get involved and have not taken the plunge, this is a great forum for learning how to contribute to Sass to make it better.
+
+### Sass Projects whose Mainters are at SassConf
+
+* https://github.com/Team-Sass

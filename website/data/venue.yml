@@ -1,7 +1,4 @@
 neighborhoods:
-  - name: Nolita
-    link: https://www.airbnb.com/locations/new-york/nolita
-    distance: Short walk
   - name: Union Square
     link: https://www.airbnb.com/locations/new-york/union-square
     distance: Short train / 5-10 min bike ride
