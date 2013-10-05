@@ -12,7 +12,9 @@ If you want to get involved and have not taken the plunge, this is a great forum
 
 * [Breakpoint](http://github.com/team-sass)
 * [Color Schemer](http://github.com/team-sass/color-schemer)
+* [Compass](http://compass-style.org/)
 * [Jacket](http://github.com/team-sass/jacket)
+* [Libsass](https://github.com/hcatlin/libsass)
 * [Modular Scale](http://github.com/team-sass/modular-scale)
 * [Singularity](http://github.com/team-sass/singularity)
 * [Style Prototypes](github.com/team-sass/generator-style-prototype)
