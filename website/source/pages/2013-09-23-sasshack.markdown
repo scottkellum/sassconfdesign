@@ -8,6 +8,13 @@ SassHack is open all day October 13th. Work on projects, get answers, pick up ne
 
 If you want to get involved and have not taken the plunge, this is a great forum for learning how to contribute to Sass to make it better.
 
-### Sass Projects whose Maintainers are at SassConf
+### Sass Projects whose Maintainers will be at SassConf
 
-* https://github.com/Team-Sass
+* [Breakpoint](http://github.com/team-sass)
+* [Color Schemer](http://github.com/team-sass/color-schemer)
+* [Jacket](http://github.com/team-sass/jacket)
+* [Modular Scale](http://github.com/team-sass/modular-scale)
+* [Singularity](http://github.com/team-sass/singularity)
+* [Style Prototypes](github.com/team-sass/generator-style-prototype)
+* [Susy](http://susy.oddbird.net/)
+* [Toolkit](http://github.com/team-sass/toolkit)
