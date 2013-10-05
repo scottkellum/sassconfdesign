@@ -9,10 +9,10 @@ details:
     description: Hands on workshops go in-depth with code examples and problem sovling with Sass.
     link: /schedule#day-2
   - title: SassHack
-    description: "It's up to us to make the community better. Contribute on OSS Sass projects. Let's set a record for most pull requests merged."
+    description: "It's up to us to make the community better. Contribute to Open Source Sass projects. Let's set a record for most pull requests merged."
     link: /pages/sasshack
   - title: Community
-    description: "Two-day  in the company of awesome people from all over the world that love Sass, front-end development, and making cool things with Sass."
+    description: "Two-days in the company of awesome people from all over the world that love Sass, front-end development, and making cool things with Sass."
   - title: Knowledge is Power
     description: "Exclusive deals for attendees on new and popular Sass titles from publishers we love."
     url:
