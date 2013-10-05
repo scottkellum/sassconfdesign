@@ -8,6 +8,6 @@ SassHack is open all day October 13th. Work on projects, get answers, pick up ne
 
 If you want to get involved and have not taken the plunge, this is a great forum for learning how to contribute to Sass to make it better.
 
-### Sass Projects whose Mainters are at SassConf
+### Sass Projects whose Maintainers are at SassConf
 
 * https://github.com/Team-Sass

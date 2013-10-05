@@ -1,0 +1,12 @@
+food:
+  - name: Union Square
+    link: https://www.airbnb.com/locations/new-york/union-square
+    distance: Short train / 5-10 min bike ride
+  - name: East Villa
+
+
+vendors:
+  - name: Maria DemiDova
+  - name: Pushcart
+  - name: Koso Catering
+  - name: Fiestah

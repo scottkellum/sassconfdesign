@@ -5,4 +5,12 @@
 		margin-top: ms(2);
 		border-top: ms(-4) solid $secondary;
 	}
+  p img {
+    text-align: center;
+    display: block;
+    margin: 0 auto ms(2) auto
+  }
+  a ~ p {
+    display: none;
+  }
 }

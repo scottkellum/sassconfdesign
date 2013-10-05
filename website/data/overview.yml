@@ -1,22 +1,22 @@
 details:
   - title: Single track
-    description: "In-depth, advanced talks from leaders in Sass, design, and development."
+    description: "In-depth, advanced talks all featuring Sass."
     link: /schedule#day-1
   - title: UnConference
     description: Want to speak? Have a passion project to share? Sign up on October 13th to lead your own session. Anything goes!
     link: /pages/unconference
   - title: Workshops
-    description: Hands on workshops covering Responsive Web Design with Sass, Frameworks, and other important topics.
+    description: Hands on workshops go in-depth with code examples and problem sovling with Sass.
     link: /schedule#day-2
   - title: SassHack
-    description: "It's up to us to make the community better. Meet the creative minds behind the most popular Sass tools. Work on OSS Sass projects. Let's set a record for most pull requests merged."
+    description: "It's up to us to make the community better. Contribute on OSS Sass projects. Let's set a record for most pull requests merged."
     link: /pages/sasshack
   - title: Community
-    description: "Spend two-days, in NYC, in the company of awesome people from all over the world that love Sass, front-end development, and building and designing Sass tools and extensions."
+    description: "Two-day  in the company of awesome people from all over the world that love Sass, front-end development, and making cool things with Sass."
   - title: Knowledge is Power
-    description: "Exclusive deals for attendees on popular Sass titles from publishers we love. Browse and order books at the event"
+    description: "Exclusive deals for attendees on new and popular Sass titles from publishers we love."
     url:
-      - href: http://google.com
+      - href: http://rosenfeldmedia.com/
         title: Rosenfeld Media,
       - href: http://abookapart.com
         title: A Book Apart,

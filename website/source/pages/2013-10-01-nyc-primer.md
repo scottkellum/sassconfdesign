@@ -4,9 +4,11 @@ date: 2013-10-01
 tags: faq
 ---
 
-New York City is a blast. Lots to do. Never a dull moment. Hope you plan your trip to catch a few of the unique things that make New York City. There's lots of stuff and more comprehensive great guides t
+*NB: Still In Progress*
 
-Here are things we highly recommend and some general getting around tips from local organizers. 
+New York City is a blast. Lots to do. Never a dull moment. Hope you plan your trip to catch a few of the unique things that make New York City. 
+
+Here are things we highly recommend and some general getting around tips from local organizers.
 
 Follow SassConf on FourSquare and check out our handy lists. Join our SassConf GroupMe. 
 
@@ -42,14 +44,14 @@ NYC is known for its public transportation. It is 24 hrs. You'll be able to get 
 #### Friday is Free Museum night. 
 Great way to see one of the major museums for free. The [Whitney](http://whitney.org/Exhibitions) has the longest hours from 6-9PM; MoMA, Guggenhiem, , 
 
-#### Free and Donation Based Musuem
+#### Free and Donation Based Museum
 
 Pay what you want anytime. The prices you see are suggested donations only. MET, Natural History Museum, [El Museo Del Barrio](http://elmuseo.org/visit/) has its Latin American Biennial.
 
 
 * **[Museum of comic and Cartoon Art](http://www.societyillustrators.org/mocca.aspx?id=8560)** at the [Society of Illustrators Museum]().
 * [Transit Museumm](http://www.mta.info/mta/museum/) for those that arrive early in the week.
-* [Intrepid Sea, Air, Space Meusem](http://www.intrepidmuseum.org/)
+* [Intrepid Sea, Air, Space Museum](http://www.intrepidmuseum.org/)
 * **[Art in General](http://www.artingeneral.org/exhibitions)** was founded in 1981 by artists Martin Weinstein and Teresa Liszka in the who aimed to create a space where artists could exhibit unconventional work and exchange ideas with their peers. Free. Near Scholastic. [History on Wikipedia](http://en.wikipedia.org/wiki/Art_in_General)
 * 
 ![City Reliuaryy](http://www.cityreliquary.org/wp-content/uploads/2009/07/CR.jpg)
@@ -79,7 +81,7 @@ Instead of Broadway try [Joe's Public](), Abrons Art Center(http://www.abronsart
 * Walk **[The Highline](http://www.thehighline.org/about/maps)*** and then get Artichoke pizza or other food spots. [Self guided vist](http://www.thehighline.org/pdf/high-line-self-guide-fall.pdf) and [art guide](http://www.thehighline.org/pdf/FHL-ARTMAP-SEPT2013.pdf).
 * East Harlem Walking Tour
 * [Printed Matter](http://printedmatter.org/) is the world's largest non-profit organization dedicated to publications made by artists. [Yelp](http://www.yelp.com/biz/printed-matter-new-york)
-* Cinophiles resource! **[Spectacle Theatre](http://www.spectacletheater.com/upcoming/)** is tiny, gem of a theatre. Fully volunteer run, Spetacle's programming encompasses overlooked works, and offbeat gems. [Angelika Theatre](), [Film Forum](http://www.filmforum.org/), [Landmark Theatres](http://www.landmarktheatres.com/Market/NewYork/NewYork_frameset.htm) has midnight movies
+* Cinephiles resource! **[Spectacle Theatre](http://www.spectacletheater.com/upcoming/)** is tiny, gem of a theatre. Fully volunteer run, Spetacle's programming encompasses overlooked works, and offbeat gems. [Angelika Theatre](), [Film Forum](http://www.filmforum.org/), [Landmark Theatres](http://www.landmarktheatres.com/Market/NewYork/NewYork_frameset.htm) has midnight movies
 * Walk the Brooklyn Promenade. 
 * Get ice cream at [Brooklyn River Ice Cream] and enjoy it [Brooklyn Bridge Park]
 * Take a fun classes for cheap at [Brooklyn Brainery](http://brooklynbrainery.com/courses) all determined by the things you want to learn and teach. It's a place to experiment with all kinds of topics, hobbies, and ideas — think book clubs on steroids.
