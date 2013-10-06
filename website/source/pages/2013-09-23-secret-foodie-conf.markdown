@@ -15,10 +15,11 @@ Thank you for your love gastronomy and mission to bring affordable technology ed
 
 ### Food Vendors
 
-### ![DesmidovaCatering](/lib/img/food/demidova.jpg)
+[![DesmidovaCatering](/lib/img/food/demidova.jpg)](http://www.demidovacatering.com/)
+Raised by her grandparents on a farm in Vladivostok, Russia, Maria was exposed to the arts of canning fresh produce, curing meats, making jams, butchering fish, baking breads, all at a very early age. After mastering her skills as a vegetarian chef in her almost two year residency at Tassajara and Green Gulch Zen Monasteries, she returned to NYC to work with well known chefs in NYC (David Burke, Jason Tillman, to name a few), and refined cooking with poultry, meat and fish.
 
 [![Pushcart Coffee](http://www.pushcartcoffee.com/wp-content/themes/pushcart/images/logo.jpg)](http://www.pushcartcoffee.com/) Pushcart Coffee is at its heart a neighborhood coffee shop, dedicated to nurturing and cultivating communities.
 
-![Koso](http://www.kosocatering.com/images/koso_logo.png) Koso's goal is to share their passion of Korean cuisine by making their unique flavors and dishes more accessible to the rest of the world
+[![Koso](http://www.kosocatering.com/images/koso_logo.png)](http://www.kosocatering.com/) Koso's goal is to share their passion of Korean cuisine by making their unique flavors and dishes more accessible to the rest of the world
 
-![Fiestah](http://vpi.s3.amazonaws.com/12424.jpg) Makes event planning a breeze. 
+![Fiestah](http://vpi.s3.amazonaws.com/12424.jpg) Fiestah is like Sass—makes things fun again! Connect with vendors, compares quotes, pay, and more—And it's free and makes event planning a breeze.Thanks, Fiestah, for making SassConf's Secret Food Conf a joy to plan out.
