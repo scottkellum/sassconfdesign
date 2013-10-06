@@ -8,11 +8,11 @@ New York City, the city that never sleeps. There's lots to do with never a dull 
 
 Here are things we highly recommend and some general getting around tips from local organizers.
 
-Friend [SassConf on FourSquare](foursquare.com/sassconf); save our handy [lists](foursquare.com/sassconf/lists/created); read our [tips](foursquare.com/sassconf/list/tips).
+Friend [SassConf on FourSquare](foursquare.com/sassconf); save our handy [lists](http://foursquare.com/sassconf/lists/created); read our [tips](foursquare.com/sassconf/list/tips).
 
-* Comprehensive guide to [Food Near and Around the Venues](foursquare.com/sassconf/list/food-near-the-venues)
-* [Drinks (aka Bars)](foursquare.com/sassconf/list/drinkup--mondays-a-holiday)
-* [Things to Do](foursquare.com/sassconf/list/places-to-visit)
+* Comprehensive guide to [Food Near and Around the Venues](http://foursquare.com/sassconf/list/food-near-the-venues)
+* [Drinks (aka Bars)](http://foursquare.com/sassconf/list/drinkup--mondays-a-holiday)
+* [Things to Do](http://foursquare.com/sassconf/list/places-to-visit)
 
 If you have specific questions, [email us](mailto:info@sassconf.com) and we'll do out best to help you out or point you to trusty info.
 
@@ -24,13 +24,13 @@ ps. Site seeing wise, don't count on Ellis Island or Statue of Liberty to be ope
 You will walk. A lot. Bring comfortable shoes. It's also a really great way to explore the city, especially downtown Manhattan. 
 
 #### Subway
-NYC is known for its public transportation. The subway runs 24/7. You'll be able to get anywhere. Anytime. Late, late night trains run less frequently and there can be weekend train work.  
+NYC is known for its public transportation. The subway runs 24/7. You'll be able to get anywhere. Anytime. Late, late night trains run less frequently and there can be weekend train work.   
 
 * **[Embark](http://letsembark.com/)** (iPhone)
 * New York Subway Map (iPhone)
 * NYC Bus & Subway Maps (Android)
 * [Hopstop](https://www.hopstop.com/)
-* **[Exit Strategy](http://www.exitstrategynyc.com/)** Maps and know were to stand to get in and out of the Subway with ease (iPhone, Android, Blackberry)
+* **[Exit Strategy](http://www.exitstrategynyc.com/)** Maps plus know were to stand to get in and out of the Subway with ease—it does make a difference. (iPhone, Android, Blackberry)
 
 #### Bike!
 
