@@ -8,13 +8,13 @@ New York City, the city that never sleeps. There's lots to do with never a dull 
 
 Here are things we highly recommend and some general getting around tips from local organizers.
 
-Follow SassConf on FourSquare and check out our handy lists. Join our SassConf GroupMe. 
+Friend [SassConf on FourSquare](foursquare.com/sassconf); save our handy [lists](foursquare.com/sassconf/lists/created); read our [tips](foursquare.com/sassconf/list/tips).
 
-* Food Near the Venue
-* Food Around Manhattan
-* Attractions
+* Comprehensive guide to [Food Near and Around the Venues](foursquare.com/sassconf/list/food-near-the-venues)
+* [Drinks (aka Bars)](foursquare.com/sassconf/list/drinkup--mondays-a-holiday)
+* [Things to Do](foursquare.com/sassconf/list/places-to-visit)
 
-If you have specific questions, email us and we'll do out best to help you out or point you to a trusty info.
+If you have specific questions, [email us](mailto:info@sassconf.com) and we'll do out best to help you out or point you to trusty info.
 
 ps. Site seeing wise, don't count on Ellis Island or Statue of Liberty to be open.
 
@@ -30,8 +30,7 @@ NYC is known for its public transportation. The subway runs 24/7. You'll be able
 * New York Subway Map (iPhone)
 * NYC Bus & Subway Maps (Android)
 * [Hopstop](https://www.hopstop.com/)
-* **[Exit Strategyy](http://www.exitstrategynyc.com/)** Maps and know were to stand to get in and out of the Subway with ease (iPhone, Android, Blackberry)
-
+* **[Exit Strategy](http://www.exitstrategynyc.com/)** Maps and know were to stand to get in and out of the Subway with ease (iPhone, Android, Blackberry)
 
 #### Bike!
 
@@ -45,18 +44,22 @@ Friday nights in New York City many of our museums are open later and are free! 
 
 #### Free and Donation Based Museum
 
-Many of our museums are donation based, with the prices being their suggested donation. There are the big ones like the Met and the Natural History Museum, but there are many other less well known, but equally fun museums throughout the city.
+Many of our museums are donation based, listed prices are merely suggested donation. There are the big ones like the Met and the Natural History Museum, but there are many other less well known, but equally fun museums throughout the city.
 
 * [El Museo Del Barrio](http://elmuseo.org/visit/) has its Latin American Biennial.
 * **[Museum of comic and Cartoon Art](http://www.societyillustrators.org/mocca.aspx?id=8560)** at the [Society of Illustrators Museum]().
+* [Art in General](http://www.artingeneral.org/exhibitions) was founded in 1981 by artists Martin Weinstein and Teresa Liszka in the who aimed to create a space where artists could exhibit unconventional work and exchange ideas with their peers. Free. Near Scholastic. [History on Wikipedia](http://en.wikipedia.org/wiki/Art_in_General)
+* Must See **[The Earth Room](http://www.diaart.org/sites/page/52/1366)**, 2 blocks away from Scholastic. Admission is free. Open Wednesday-Sunday, 12-6 pm (closed from 3-3:30 pm)
+* **[Dream House](http://melafoundation.org/dream02.htm)** is a Sound and Light Environment. The Dream House is open on Thursdays, Fridays, and Saturdays from 2:00pm - Midnight. [NY Observer on Dream House](http://observer.com/2011/09/the-dream-house-reopens-saturday-in-tribeca/)
+* [City Reliquary](http://www.cityreliquary.org/plan-your-visit/) a permanent display of New York City artifacts, rotating exhibits of community collections, and annual cultural events, The City Reliquary connects visitors to both the past and present of New York. Thurs – Sun 12-6 PM.
+* **[5 Pointz](http://5ptz.com/)** 200,000 square foot factory building covered wall-to-wall in beautiful urban illustrations. [GO SEE IT BEFORE IT GETS DEMOLISHED!](http://www.businessinsider.com/check-out-the-nyc-graffitti-mecca-that-may-be-torn-down-and-turned-into-high-rises-2011-10#)
+
+#### Paid and worth it
+
+* [Tenement Museum](http://www.tenement.org/) has a great Lower East Side historic walking tour.
 * [Transit Museumm](http://www.mta.info/mta/museum/) for those that arrive early in the week.
 * [Intrepid Sea, Air, Space Museum](http://www.intrepidmuseum.org/)
-* **[Art in General](http://www.artingeneral.org/exhibitions)** was founded in 1981 by artists Martin Weinstein and Teresa Liszka in the who aimed to create a space where artists could exhibit unconventional work and exchange ideas with their peers. Free. Near Scholastic. [History on Wikipedia](http://en.wikipedia.org/wiki/Art_in_General)
 
-![City Reliuaryy](http://www.cityreliquary.org/wp-content/uploads/2009/07/CR.jpg)
-
-* [City Reliquary](http://www.cityreliquary.org/plan-your-visit/) a permanent display of New York City artifacts, rotating exhibits of community collections, and annual cultural events, The City Reliquary connects visitors to both the past and present of New York. Thurs – Sun 12-6 PM.
-* [Tenement Museumm]() has a great Lower East Side walking tour
 
 ## Music/Performance
 
@@ -72,21 +75,21 @@ Many of our museums are donation based, with the prices being their suggested do
 
 Instead of Broadway try [Joe's Pub](http://www.joespub.com/), [Abrons Art Center](http://www.abronsartscenter.org/performances/) in Downtown Manhattan and [Bam](http://www.bam.org/) in Brooklyn.
 
-## More Gems
+#### Cinephiles resource! 
 
-* **[Forgotten NYC](http://forgotten-ny.com/)** Unique tours and history.
-* Greek Yogurt On at [Chobai Store](https://maps.google.com/maps?ie=UTF-8&q=chobani+store&fb=1&gl=us&hq=chobani+store&cid=0,0,11253197252192248450&ei=vjxOUpnOMq-r4APt34HIBw&ved=0CDEQrwswAA). Few blocks from Scholastic. Not what you'll get in the store. [Yogurt Creations](http://chobanisoho.com/menu/) 
-* [Dream House](http://melafoundation.org/dream02.htm) Dream House is a Sound and Light Environment. The Dream House is open on Thursdays, Fridays, and Saturdays from 2:00pm - Midnight. [NY Observer on Dream House](http://observer.com/2011/09/the-dream-house-reopens-saturday-in-tribeca/)
-* **[5 Pointz](http://5ptz.com/)** 200,000 square foot factory building covered wall-to-wall in beautiful urban illustrations. [GO SEE IT BEFORE IT GETS DEMOLISHED!](http://www.businessinsider.com/check-out-the-nyc-graffitti-mecca-that-may-be-torn-down-and-turned-into-high-rises-2011-10#)
-* Walk **[The Highline](http://www.thehighline.org/about/maps)** and then get Artichoke pizza or other food spots. [Self guided visit](http://www.thehighline.org/pdf/high-line-self-guide-fall.pdf) and [art guide](http://www.thehighline.org/pdf/FHL-ARTMAP-SEPT2013.pdf).
-* East Harlem Walking Tour
-* [Printed Matter](http://printedmatter.org/) is the world's largest non-profit organization dedicated to publications made by artists. [Yelp](http://www.yelp.com/biz/printed-matter-new-york)
-* Cinephiles resource! **[Spectacle Theatre](http://www.spectacletheater.com/upcoming/)** is tiny, gem of a theatre. Fully volunteer run, Spetacle's programming encompasses overlooked works, and offbeat gems. [Angelika Theatre](), [Film Forum](http://www.filmforum.org/), [Landmark Theatres](http://www.landmarktheatres.com/Market/NewYork/NewYork_frameset.htm) has midnight movies
-* Walk the Brooklyn Promenade. 
-* Get ice cream at [Brooklyn River Ice Cream](http://www.brooklynicecreamfactory.com/) and enjoy it [Brooklyn Bridge Park](http://www.brooklynbridgepark.org/) or stroll around the Village while enjoying a cone from [Big Gay Ice Cream](http://biggayicecream.com/)
+* **[Spectacle Theatre](http://www.spectacletheater.com/upcoming/)** is tiny, gem of a theatre. Fully volunteer run, Spetacle's programming encompasses overlooked works, and offbeat gems. 
+* See a midnight movie at [Film Forum](http://www.filmforum.org/), [Landmark Theatres](http://www.landmarktheatres.com/Market/NewYork/NewYork_frameset.htm), or IFC
+* Avantgarde programming at the great arthouse [Angelika Theatre]()
+
+## Suggestions for Fun Adventures
+
+* Walk **[The Highline](http://www.thehighline.org/about/maps)** and then get Artichoke pizza or other food spots. [Self guided visit](http://www.thehighline.org/pdf/high-line-self-guide-fall.pdf) and [art guide](http://www.thehighline.org/pdf/FHL-ARTMAP-SEPT2013.pdf). End by stopping by[Printed Matter](http://printedmatter.org/), the world's largest non-profit organization dedicated to publications made by artists. [Yelp](http://www.yelp.com/biz/printed-matter-new-york)
+* Walk the Brooklyn Promenade. Get ice cream at [Brooklyn River Ice Cream](http://www.brooklynicecreamfactory.com/) and enjoy it at [Brooklyn Bridge Park](http://www.brooklynbridgepark.org/) or stroll around the Village while enjoying a cone from [Big Gay Ice Cream](http://biggayicecream.com/)
+* Try unique flavors of greek yogurt at the [Chobai Store](https://maps.google.com/maps?ie=UTF-8&q=chobani+store&fb=1&gl=us&hq=chobani+store&cid=0,0,11253197252192248450&ei=vjxOUpnOMq-r4APt34HIBw&ved=0CDEQrwswAA), just few blocks from Scholastic. You won't find these flavors in the store. [Yogurt Creations](http://chobanisoho.com/menu/) 
 * Take a fun classes for cheap at [Brooklyn Brainery](http://brooklynbrainery.com/courses) all determined by the things you want to learn and teach. It's a place to experiment with all kinds of topics, hobbies, and ideas — think book clubs on steroids.
 * [Relax at Spa Castle](http://www.thehighline.org/pdf/FHL-ARTMAP-SEPT2013.pdf)
-* See [The Earth Room](http://www.diaart.org/sites/page/52/1366), 2 blocks away from Scholastic. Admission is free. Open Wednesday-Sunday, 12-6 pm (closed from 3-3:30 pm)
+* Take the train uptown and walk Historic East and West Harlem. 
+* Walk the East River Park to South Street Seaport. Catch the ferry to Red Hook and explore Brooklyn's off the beaten track neighborhood. 
 
 ## Keep up with What's Going On
 
@@ -96,5 +99,5 @@ Instead of Broadway try [Joe's Pub](http://www.joespub.com/), [Abrons Art Center
 * [Scout Mob](http://scoutmob.com/new-york/scoutfinds?ref=hdr_articles) Publishes an interesting What to Do Guide
 * [Time Our New York](http://www.timeout.com/newyork) Grab one of these at any Bodega. Comprehensives lists of things for the week, best shows to see on and off Broadway. [Your essential guide to gotham](http://www.timeout.com/newyork/things-to-do/101-things-to-do-in-new-york-your-essential-guide-to-gotham)
 * [Flavorpill](http://beta.flavorpill.com/newyork)
-
+* [Forgotten NYC](http://forgotten-ny.com/) Unique tours and history.
 
