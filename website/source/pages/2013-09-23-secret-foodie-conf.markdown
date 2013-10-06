@@ -5,7 +5,7 @@ tags: about
 class: sponsors
 ---
 
-You can travel the world one bite at a time in [New York City](/pages/nyc-primer). Although we are known for our bagels and schmear, we wanted to take a different route than the traditional conference food fare. We've enlisted the help of our food sponsors and an an array of fantastic local New York caterers to provide you fantastic breakfast, lunch, and snacks both days of the conference.
+You can travel the world one bite at a time in [New York City](/pages/nyc-primer). Although we are known for our [bagels and schmear](http://foursquare.com/sassconf/list/bagel--schmear), we wanted to take a different route than the traditional conference food fare. We've enlisted the help of our food sponsors and an an array of fantastic local New York caterers to provide you fantastic breakfast, lunch, and snacks both days of the conference.
 
 ## SassConf smörgåsbord made possible by the generous support from our Food Sponsors
 
