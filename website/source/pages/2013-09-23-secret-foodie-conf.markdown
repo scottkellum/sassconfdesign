@@ -22,4 +22,4 @@ Raised by her grandparents on a farm in Vladivostok, Russia, Maria was exposed t
 
 [![Koso](http://www.kosocatering.com/images/koso_logo.png)](http://www.kosocatering.com/) Koso's goal is to share their passion of Korean cuisine by making their unique flavors and dishes more accessible to the rest of the world
 
-![Fiestah](http://vpi.s3.amazonaws.com/12424.jpg) Fiestah is like Sass—makes things fun again! Connect with vendors, compares quotes, pay, and more—And it's free and makes event planning a breeze.Thanks, Fiestah, for making SassConf's Secret Food Conf a joy to plan out.
+![Fiestah](http://vpi.s3.amazonaws.com/12424.jpg) Fiestah is like Sass—makes things fun again! Connect with vendors, compares quotes, pay, and more—And it's free and makes event planning a breeze. Thanks, Fiestah, for making SassConf's Secret Food Conf a joy to plan out.
