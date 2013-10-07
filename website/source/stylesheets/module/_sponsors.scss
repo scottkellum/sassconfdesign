@@ -2,19 +2,19 @@
   text-align: center;
   border-top: ms(-4) solid $secondary;
   background-color: white;
-  a {
-    opacity: .66;
-    @include filter(grayscale(100%));
-    @include transition(all .5s);
-    &:hover {
-      opacity: 1;
-      @include filter(grayscale(0%));
-    }
-  }
-  div {
+  .tier {
     margin-bottom: 3em;
     &:empty {
       display: none;
+    }
+    a {
+      opacity: .66;
+      @include filter(grayscale(100%));
+      @include transition(all .5s);
+      &:hover {
+        opacity: 1;
+        @include filter(grayscale(0%));
+      }
     }
   }
   .xl img {
