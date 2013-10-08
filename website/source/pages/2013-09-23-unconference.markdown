@@ -4,13 +4,12 @@ date: 2013-09-23
 tags: about 
 ---
 
-We had an overwhelming number of session submissions. So many that we decided to extend our plan for a one day, single-track conference plan to a two-day conference. 
+We had an overwhelming number of session submissions. So many that we decided to add another day to SassConf. October 13th is filled with workshops lead by industry leaders; a [SassHack](/pages/sasshack), and an UnConference. 
 
-Hampton Catlin's grito for the front-end revolution kicks us off for a day filled with workshops taught by industry leaders, an UnConference where attendees take charge on what they want to learn. Propose to lead a session or look for a teacher on a topic.
+> a siren song for those whose main weapons are HTML, Sass and maybe a touch of Javascript. This is a declaration of independence from the backend. 
+  **Hampton Catlin***, Keynote, October 13, 2013*
 
-We've purposely organized it so that we, the attendees, shape our own future. We are the leaders of the change we want to see. We hope it results in many laughs, commits, merges, knowledge transfer, and new friendships.
-
-**Sign-up to lead a session for a room October 13 from 8-9:30AM**.  [HackerPad](https://hackpad.com/SassConf-UnConference-Oct.-13th-RFCQnAVo8VJ) to start collecting interest from attendees. 
-
+Anyone can propose a session, but it does not gaurentee a space. We encourage you to add what you want to teach or learn to the wiki. Upvote proposals. In the event of a space jam, the crowd will decide. 
+<script src="https://hackpad.com/RFCQnAVo8VJ.js"></script><noscript><div>View <a href="https://hackpad.com/RFCQnAVo8VJ">SassConf UnConference Oct. 13th</a> on Hackpad.</div></noscript>
  
 
