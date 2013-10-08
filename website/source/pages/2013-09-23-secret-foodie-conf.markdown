@@ -16,7 +16,7 @@ Thank you for your love gastronomy and mission to bring affordable technology ed
 ### Food Vendors
 
 [![DesmidovaCatering](/lib/img/food/demidova.jpg)](http://www.demidovacatering.com/)
-Raised by her grandparents on a farm in Vladivostok, Russia, Maria was exposed to the arts of canning fresh produce, curing meats, making jams, butchering fish, baking breads, all at a very early age. After mastering her skills as a vegetarian chef in her almost two year residency at Tassajara and Green Gulch Zen Monasteries, she returned to NYC to work with well known chefs in NYC (David Burke, Jason Tillman, to name a few), and refined cooking with poultry, meat and fish. [@DemidovaCatering](https://twitter.com/DemidovaCatering)
+Raised by her grandparents on a farm in Vladivostok, Russia, Maria was exposed to the arts of canning fresh produce, curing meats, making jams, butchering fish, baking breads, all at a very early age. After mastering her skills as a vegetarian chef in her almost two year residency at Tassajara and Green Gulch Zen Monasteries, she returned to NYC to work with well known chefs in NYC (David Burke, Jason Tillman, to name a few), and refined cooking with poultry, meat and fish. [@DemidovaCatering](https://twitter.com/DemidovaCaterin)
 
 [![Pushcart Coffee](http://www.pushcartcoffee.com/wp-content/themes/pushcart/images/logo.jpg)](http://www.pushcartcoffee.com/) Pushcart Coffee is at its heart a neighborhood coffee shop, dedicated to nurturing and cultivating communities. [@pushcartcoffee](https://twitter.com/pushcartcoffee)
 
