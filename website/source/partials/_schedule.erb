@@ -1,3 +1,18 @@
+<!-- <ul class="schedule">
+  <% data.speakers.sessions.year_2013.each do |f| %>
+    <li class="session">
+      <h2 class="name"><%= f.name %></h2>
+      <p class="description">Come get you badge, custom Sassy tote and shirt. Hot breakfast&mdash;<%= link_to 'sorry no bagels and schmear here', '/pages/secret-foodie-conf' %>&mdash;to get you reved up for morning's talks.</p>
+      <div class="time">
+        <span class="start">8:00am</span>
+        <span class="end">9:00am</span>
+      </div>
+    </li>
+  <% end %>
+</ul>
+
+ -->
+
 <ul class="schedule">
   <li id="day-1" class="day">
     <h2>Saturday</h2>
@@ -5,6 +20,7 @@
   </li>
   <li class="session">
     <h2 class="name">Registration &amp; Breakfast</h2>
+      <h3>Co-sponsored by Treehouse</h3>
     <p class="description">Come get you badge, custom Sassy tote and shirt. Hot breakfast&mdash;<%= link_to 'sorry no bagels and schmear here', '/pages/secret-foodie-conf' %>&mdash;to get you reved up for morning's talks.</p>
     <div class="time">
       <span class="start">8:00am</span>
@@ -64,8 +80,9 @@
   </li>
   <li class="session">
     <h2 class="name">Lunch on the Terrace</h2>
+      <h3>Co-sponsored by Treehouse</h3>
     <div class="time">
-      <span class="start">11:50am</span>
+      <span class="start">12:00pm</span>
       <span class="end">1:20pm</span>
     </div>
   </li>
@@ -81,7 +98,7 @@
       <a href="http://dribbble.com/bermonpainter">Dribbble</a>
       <a href="http://www.linkedin.com/in/bermonpainter">linkedIn</a>
     </div>
-    <p class="description">In this talk both designers and developers will discover: how to work together to craft both visually and programmatically stunning interfaces while wielding the power of Sass, the benefits of using Sass & Compass to create a translation layer from design to code, and (if they both play nice) how to create an interface library with Compass Extensions.</p>
+    <p class="description">In this talk both designers and developers will discover: how to work together to craft both visually and programmatically stunning interfaces while wielding the power of Sass, the benefits of using Sass & Compas to create a translation layer from design to code, and (if they both play nice) how to create an interface library with Compass Extensions.</p>
     <div class="time">
       <span class="start">1:30pm</span>
       <span class="end">2:20pm</span>
@@ -91,7 +108,7 @@
     <img src="/lib/img/speakers/dalesande.jpg" alt=" ">
     <h2 class="name">Clean out your Sass junk-drawer</h2>
     <h3 class="speaker">Dale Sande</h3>
-    <h3 class="occupation">UI Developer at MAANA</h3>
+    <h3 class="occupation">UI Developer at CodeFellows, Seattle</h3>
     <div class="social">
       <a href="https://twitter.com/anotheruiguy">Twitter</a>
       <a href="https://github.com/blackfalcon">Github</a>
@@ -183,8 +200,17 @@
     </div>
   </li>
   <li class="session">
-    <h2 class="name">After Party!</h2>
-    <p class="description">Show off your ping pong skills at Spin—the famous ping pong club. Sign up for the SassConf tournament to win sassy ping-pong set. <strong>Thanks to Co-Sponsor Shopify!</strong>.</p>
+      <h2 class="name">Dinner on the town</h2>
+      <p class="description">The only meal we aren't covering. We want you to explore NYC. Take a look at our lists and guides to food near Scholastic & Spin. </p>
+      <div class="time">
+        <span class="start">8:00pm</span>
+        <span class="end">10:00pm</span>
+      </div>
+  </li>
+  <li class="session">
+    <h2 class="name"><%= link_to 'Official After Party!', '/pages/parties/'%></h2>
+    <h3>Co-sponsored by Shopify</h3>
+    <p class="description">Show off your ping pong skills at Spin—the famous ping pong club. <strong>Open bar 10:30pm - 1am</strong>. Word in the commit logs is there's a tournament for sassy ping pong set.</p>
     <div class="time">
       <span class="start">10:00pm</span>
       <span class="end">2:00am</span>
@@ -196,17 +222,18 @@
   </li>
   <li class="session">
     <h2 class="name">Breakfast & UnConference SignUp</h2>
-    <p class="description">Delicious hot breakfast and coffee. <a href="https://hackpad.com/SassConf-UnConference-Oct.-13th-RFCQnAVo8VJ">Sign-up</a> to lead an UnConference session or initiate at SassHack.</p>
+    <h3>Co-sponsored by Treehouse</h3>
+    <p class="description">Delicious hot breakfast and coffee. <a href="https://hackpad.com/SassConf-UnConference-Oct.-13th-RFCQnAVo8VJ">Sign-up</a> to lead an UnConference session or initiate at SassHack. <strong>Workshops start at 10:00am.</strong></p>
     <div class="time">
       <span class="start">8:00am</span>
-      <span class="end">9:00am</span>
+      <span class="end">10:00am</span>
     </div>
   </li>
   <li class="session">
-    <h2 class="name">UnConference, SassHack, Workshops</h2>
+    <h2 class="name">UnConference & SassHack</h2>
     <p class="description"><a href="https://hackpad.com/SassConf-UnConference-Oct.-13th-RFCQnAVo8VJ">Lead your own session</a>, contribute to Open Source Sass projects, or attend a workshop.</p>
     <div class="time">
-      <span class="start">9:00am</span>
+      <span class="start">10:00am</span>
       <span class="end">7:00pm</span>
     </div>
   </li>
@@ -264,9 +291,10 @@
   </li>
   <li class="session">
     <h2 class="name">Lunch on the Terrace</h2>
+    <h3>Breakfast co-sponsored by Treehouse</h3>
     <div class="time">
-      <span class="start">12:00am</span>
-      <span class="end">1:00am</span>
+      <span class="start">12:00pm</span>
+      <span class="end">1:30pm</span>
     </div>
   </li>
   <li class="session pannel">
@@ -280,7 +308,7 @@
     <h3 class="speaker"><a href="http://www.boboroshi.com/">John Athayde</a>, <a href="http://www.elyseholladay.com/">Elyse Holladay</a>, <a href="http://rachelober.com/">Rachel Ober</a> and <a href="http://thewebivore.com/">Pam Selle</a></h3>
     <p class="description">We will be holding Custom Framework and Style Guide panels at SassConf. The panels are designed to get an array of opinions about a topic out and to get a conversation going.</p>
     <div class="time">
-      <span class="start">1:00pm</span>
+      <span class="start">1:30pm</span>
       <span class="end">3:00pm</span>
     </div>
   </li>
@@ -358,10 +386,12 @@
     </div>
   </li>
   <li class="session">
-    <h2 class="name">Wrap-Up and Drinks</h2>
-    <p class="description">Monday's a holiday, folks.</p>
+    <h2 class="name">Dinner & Drinks</h2>
+    <h3 class="speaker">The Magician</h3>
+    <h3 class="occupation">118 Rivington St  Manhattan, NY 10002</h3>
+    <p class="description">Stroll over to The Magician for dinner and drinks with friends. Monday's a holiday, folks.</p>
     <div class="time">
-      <span class="start">7:00pm</span>
+      <span class="start">8:30pm</span>
       <span class="end">...</span>
     </div>
   </li>
