@@ -1,3 +1,14 @@
+$nqr: #FCCC0A;
+$fourfivesix: #00933C;
+$bdfm: #FF6319;
+
+$trainlines: nqr, fourfivesix, dbfm;
+
+ @each $train in $trainlines {
+ 		.#{$train} {
+      color: "#{$train}";
+    }
+  }
 .venue {
 	h1, h3 {
 		text-align: center;
@@ -35,5 +46,10 @@
 		img {
 			width: 60%;
 		}
+	}
+	.notice {
+		text-decoration: line-through;
+		font-weight: bold;
+		color: $primary;
 	}
 }
