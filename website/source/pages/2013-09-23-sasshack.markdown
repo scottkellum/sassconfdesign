@@ -10,14 +10,7 @@ If you want to get involved and have not taken the plunge, this is a great forum
 
 ### Sass Projects whose Maintainers will be at SassConf
 
-* [Breakpoint](http://github.com/team-sass)
-* [Color Schemer](http://github.com/team-sass/color-schemer)
-* [Compass](http://compass-style.org/)
-* [Jacket](http://github.com/team-sass/jacket)
-* [Libsass](https://github.com/hcatlin/libsass)
-* [Modular Scale](http://github.com/team-sass/modular-scale)
-* [SassMeister](http://sassmeister.com/)
-* [Singularity](http://github.com/team-sass/singularity)
-* [Style Prototypes](github.com/team-sass/generator-style-prototype)
-* [Susy](http://susy.oddbird.net/)
-* [Toolkit](http://github.com/team-sass/toolkit)
+Add your project to the public wiki [https://sasshack.hackpad.com/](https://sasshack.hackpad.com/)
+
+<script src="https://sasshack.hackpad.com/xG2SDKAhqJF.js"></script>
+<noscript><div>View <a href="https://sasshack.hackpad.com/xG2SDKAhqJF">SassHack Initiatives</a> on Hackpad.</div></noscript>
