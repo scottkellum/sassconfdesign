@@ -10,6 +10,8 @@ Not just one, but **TWO** parties. And if you can't get enough revelery, check o
 
 Show off your ping pong skills at the world famous Spin ping club. Sign up to show off your top spin in the SassConf tournament. Winner receives a sassy custom branded ping-pong set. **Open Bar**. **Appetizers**. 
 
+[![Party map](/lib/img/party-map.jpg)](https://www.google.com/maps?q=48+EAST+23RD+STREET+NEW+YORK&t=m&hnear=48+E+23rd+St,+New+York,+10010&z=16)
+
 ### Made possible by the generous support from our Party Sponsors 
 
 [![Shopify](/lib/img/sponsors/shopify.png)](http://shopify.com)
