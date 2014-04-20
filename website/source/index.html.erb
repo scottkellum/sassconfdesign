@@ -1,89 +1,10 @@
-<div class="v-home">
+---
+title: Welcome to Middleman
+---
 
-<a href="https://maps.google.com/maps?q=Scholastic+Auditorium&hl=en&ll=40.72386,-74.001868&spn=0.011562,0.00736&cid=5745950823002065201&gl=US&t=m&z=16" class="map">
-  <h2>
-  Scholastic Auditorium
-  </h2>
-</a>
-
-<article class="about">
-  <h1 class="first">A conference for front-end developers and designers that love Sass and are passionate about building a better, more beautiful web</h1>
-
-  <p>We are a group of awesomely talented and creative front-end developers, designers, and web enthusiasts that are coming together for two days of talks, workshops, and panels on the best CSS preprocessor — <strong>Sass</strong> — in electric <%= link_to 'New York City', '/pages/nyc-primer' %>.</p>
-
-   <p>We may not have created the web, but we work passionately to advance it and make better tools for front-end developers and designers so we can build and style more awesome sites for all.</p>
-
-
-  <ul class="schedule keynote">
-    <li class="session keynote">
-      <img src="/lib/img/speakers/chriseppstein.jpg" alt=" ">
-      <h3 class="speaker">Chris Eppstein</h3>
-      <h3 class="occupation">Engineer at LinkedIn</h3>
-    </li>
-    <li class="session keynote">
-      <img src="/lib/img/speakers/hamptoncatlin.jpg" alt=" ">
-      <h3 class="speaker">Hampton Catlin</h3>
-      <h3 class="occupation">CTO at Moovweb</h3>
-    </li>
-  </ul>
-
-  <h1 style="text-align:center">Talks, Workshops, an UnConference, and a SassHack. Oh so Sassy!</h1>
-
-  <ul class="details">
-    <% data.overview.details.each do |f| %>
-    <li>
-      <% if f.link %>
-        <h3><a href="<%= f.link %>"><%= f.title %></a></h3>
-      <% else %>
-        <h3><%= f.title %></h3>
-      <% end %>
-      <p><%= f.description %>
-        <% if f.url %>
-          <% f.url.each do |u| %>
-              <a href="<%= u.href %>"><%= u.title %></a>
-          <% end %>
-        <% end %>
-      </p>
-    </li>
-    <% end %>
-  </ul>
-
-  <p>Your ticket also includes <span>delicious food</span> — <%= link_to 'none of this muffin stuff', '/pages/secret-foodie-conf' %> — <span>two conference <%= link_to 'parties', '/pages/parties'%></span>, and a limited first edition <span>SassConf tee</span> and <span>tote</span>. <strong><a href="https://tito.io/sassconf/2013">Come to SassConf!</a></strong></p>
-
-</article>
-
-<article>
-  <section id="updates" class="updates">
-
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup">
-        <form action="http://Sassconf.us5.list-manage1.com/subscribe/post?u=3a8cdc2c932e9e39b71ad40fa&amp;id=bbb1e76d11" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-          <div class="mc-field-group">
-            <label for="mce-EMAIL">Get updates:</label><br>
-            <input type="email" value="" placeholder=
-            "Email Address" name="EMAIL" class="required email" id="mce-EMAIL" required>
-          </div>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>
-          <div class="clear">
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-          </div>
-        </form>
-      </div>
-      <!--End mc_embed_signup-->
-  </section>
-  <section id="contact" class="contact">
-    <hr>
-    <h3 style="text-align: center">Stay in touch</h3>
-    <center>
-      <a href="https://twitter.com/Sassconf">@SassConf</a><br>
-      <a href="mailto:info@Sassconf.com">info@Sassconf.com</a>
-    </center>
-  </section>
-
-</article>
-
-
-</div>
+<div class="welcome">
+  <h1>Middleman is Watching</h1>
+  <p class="doc">
+    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
+  </p><!-- .doc -->
+</div><!-- .welcome -->

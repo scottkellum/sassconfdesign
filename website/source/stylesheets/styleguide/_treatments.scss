@@ -1,4 +1,0 @@
-@mixin dark-background {
-  @include background(linear-gradient(top left, $tertiary, $quadrary));
-  background-color: $quadrary;
-}
