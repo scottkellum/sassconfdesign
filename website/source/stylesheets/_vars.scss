@@ -1,0 +1,19 @@
+@import 'compass';
+@import 'toolkit';
+@import 'modular-scale';
+@import 'color-schemer';
+
+// Dimention
+$ms-base: 1em;
+
+// Color
+$cs-primary: #E429E4;
+
+$primary: cs-primary();
+$dark: hsl(hue(cs-secondary()), 50%, 20%);
+$light: hsl(hue(cs-tertiary()), 50%, 20%);
+
+// Type
+
+$omnes: 'omnes-pro', sans-serif;
+$freight: 'freight-sans-pro', sans-serif;

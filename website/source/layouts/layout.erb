@@ -11,9 +11,14 @@
 
     <%= stylesheet_link_tag "style" %>
     <%= javascript_include_tag  "all" %>
+
+    <!-- Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/zxf2jvd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body class="<%= page_classes %>">
+    <%= partial "partial/svg" %>
 
     <%= partial "partial/nav" %>
 

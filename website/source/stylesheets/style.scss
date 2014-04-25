@@ -1,3 +1,9 @@
+@import 'vars';
+
+body {
+  font-family: $freight;
+}
+
 html, body, ul, ol, li {
   margin: 0;
   padding: 0;
@@ -5,5 +11,25 @@ html, body, ul, ol, li {
 }
 
 .global-nav {
+  background-color: $dark;
+  height: ms(2.5);
+}
 
+.global-nav__home {
+  display: block;
+  float: left;
+  width: ms(3);
+  height: ms(3);
+  background-color: $primary;
+  svg {
+    fill: white;
+  }
+}
+
+.global-nav__list {
+  float: left;
+}
+
+.global-nav__list__item {
+  display: inline-block;
 }

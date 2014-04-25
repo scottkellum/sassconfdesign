@@ -45,6 +45,14 @@ activate :livereload
 #   end
 # end
 
+
+
+require 'toolkit'
+require 'modular-scale'
+require 'color-schemer'
+
+
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
