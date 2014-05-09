@@ -16,7 +16,9 @@ Friend [SassConf on FourSquare](foursquare.com/sassconf); save our handy [lists]
 
 If you have specific questions, [email us](mailto:info@sassconf.com) and we'll do out best to help you out or point you to trusty info.
 
-ps. Site seeing wise, don't count on Ellis Island or Statue of Liberty to be open.
+**Updates**
+* Ellis Island and Statue of Liberty are open again
+*  **[5 Pointz](http://5ptz.com/)** 200,000 square foot factory building covered wall-to-wall in beautiful urban illustrations. [was demolished :()](http://www.businessinsider.com/check-out-the-nyc-graffitti-mecca-that-may-be-torn-down-and-turned-into-high-rises-2011-10#)
 
 ## Getting Around 
 
@@ -52,7 +54,6 @@ Many of our museums are donation based, listed prices are merely suggested donat
 * Must See **[The Earth Room](http://www.diaart.org/sites/page/52/1366)**, 2 blocks away from Scholastic. Admission is free. Open Wednesday-Sunday, 12-6 pm (closed from 3-3:30 pm)
 * **[Dream House](http://melafoundation.org/dream02.htm)** is a Sound and Light Environment. The Dream House is open on Thursdays, Fridays, and Saturdays from 2:00pm - Midnight. [NY Observer on Dream House](http://observer.com/2011/09/the-dream-house-reopens-saturday-in-tribeca/)
 * [City Reliquary](http://www.cityreliquary.org/plan-your-visit/) a permanent display of New York City artifacts, rotating exhibits of community collections, and annual cultural events, The City Reliquary connects visitors to both the past and present of New York. Thurs – Sun 12-6 PM.
-* **[5 Pointz](http://5ptz.com/)** 200,000 square foot factory building covered wall-to-wall in beautiful urban illustrations. [GO SEE IT BEFORE IT GETS DEMOLISHED!](http://www.businessinsider.com/check-out-the-nyc-graffitti-mecca-that-may-be-torn-down-and-turned-into-high-rises-2011-10#)
 
 #### Paid and worth it
 
@@ -64,7 +65,7 @@ Many of our museums are donation based, listed prices are merely suggested donat
 ## Music/Performance
 
 * [Rockwood](http://www.rockwoodmusichall.com/) shows are always free. Independent, local musicians. (F train )
-* **[The Stone](http://thestonenyc.com/calendar.php)** is unique East Village venue. 100% of revenues go to the artist. William Parker is doing his residency the week of SassConf.
+* **[The Stone](http://thestonenyc.com/calendar.php)** is unique East Village venue. 100% of revenues go to the artist. 
 * See an improve show at some of the top improv comedy venues for cheap: [Upright Citizens Brigade](http://www.ucbtheatre.com/), the [Peoples Improv Theater](http://thepit-nyc.com/), and [Magnet Theater](http://www.magnettheater.com/index.php).
 * Catch a Jazz show at **[Smalls](http://www.smallsjazzclub.com/indexnew. cfm?itemcategory=30817&calDate=10/11/2013&calDay=19&allrows=true)**, a classic West Village spot.
 * [Joe's Pub](http://www.joespub.com/)
@@ -91,7 +92,7 @@ Instead of Broadway try [Joe's Pub](http://www.joespub.com/), [Abrons Art Center
 * Take the train uptown and walk Historic East and West Harlem. 
 * Walk the East River Park to South Street Seaport. Catch the ferry to Red Hook and explore Brooklyn's off the beaten track neighborhood. 
 
-## Keep up with What's Going On
+## Keep up with what's Going On
 
 * **[Meetup.com](http://www.meetup.com/find/?allMeetups=true&radius=5&userFreeform=New+York%2C+NY&mcName=New+York%2C+NY&lat=40.714294&lon=-74.006&events=true)** A dizzying number of events every night of the week, from tech to beyond. 
 * **[Nonsense NYC](http://www.nonsensenyc.com/about/)** is a discriminating resource for independent art, weird events, strange happenings, unique parties, and senseless culture in New York City.

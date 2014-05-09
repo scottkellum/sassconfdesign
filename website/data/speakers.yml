@@ -1,9 +1,21 @@
-sessions:
-  year_2013:
-    - name: Registration &amp; Breakfast
-      title:
-      description:
-      start:
-      end:
-      type:
-      social media:
+year_2014:
+  keynote:
+    - name: Tab Atkins Jr
+      occupation: Spec Hacker for Google
+      type: keynote
+      photo: /lib/img/speakers/tabatkins.jpg
+      photo_alt: Side portrait of Tab Atkins Jr.
+
+
+year_2013:
+  keynote:
+    - name: Chris Eppstein
+      occupation: CTO at Moovweb
+      type: keynote
+      photo: /lib/img/speakers/chriseppstein.jpg
+      photo_alt: Portrait of Chris Eppstein
+    - name: Hampton Catlin
+      occupation: CTO at Moovweb
+      type: keynote
+      photo: /lib/img/speakers/hamptoncatlin.jpg
+      photo_alt: Portrait of Hampton Catlin

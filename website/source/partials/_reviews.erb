@@ -1,0 +1,9 @@
+  <div class="scedule reviews">
+    <% data.reviews.year_2013.each do |f| %>
+    <div class="review-item">
+      <img src=" /lib/img/<%= f.photo %>.jpg" alt="<%= f.photo_alt %>">
+      <h3 class="speaker"><%= f.name %></h3>
+      <blockquote><%= f.tweet %></blockquote>
+    </div>
+    <% end %>
+  </div>
