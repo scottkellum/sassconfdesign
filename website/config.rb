@@ -7,6 +7,7 @@
 activate :blog do |blog|
   blog.prefix = "pages"
   blog.permalink = ":title.html"
+
   # blog.sources = ":year-:month-:day-:title.html"
   # blog.taglink = "tags/:tag.html"
   # blog.layout = "blog"
@@ -20,7 +21,7 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 
-  # blog.paginate = true
+  blog.paginate = true
   # blog.per_page = 10
   # blog.page_link = "page/:num"
 end
@@ -36,7 +37,7 @@ page "/feed.xml", :layout => false
 require 'toolkit'
 require 'color-schemer'
 require 'modular-scale'
-require 'singularitygs'
+require 'jacket'
 
 # Change Compass configuration
 # compass_config do |config|
