@@ -1,13 +1,13 @@
 year_2014:
   - title: Workshops
-    description: "Dedicated day, dual track, 2 and 4 hour workshops cover beginer to advanced topics in modern front-end web development."
-    link: /schedule#workshops
+    description: "Dedicated day, dual track, 2 and 4 hour workshops cover beginner to advanced topics in modern front-end web development."
+    link:
   - title: In-depth talks
     description: "Main stage talks from outstanding speakers in Sass and design communities"
-    link: /schedule#talks
+    link:
   - title: Code+Community.
     description: Work on passion projects, share your toys, hangout with the awesomest people—the ones that make and use the tools you love.
-    link: /schedule#community
+    link:
   - title: Great City
     description: What's not to love about the prospect of hanging in New York City with people that love Sass as much as you do.
     link: /pages/nyc-primer

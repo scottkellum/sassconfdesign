@@ -10,7 +10,7 @@ year_2014:
 year_2013:
   keynote:
     - name: Chris Eppstein
-      occupation: CTO at Moovweb
+      occupation: Engineer at LinkedIn
       type: keynote
       photo: /lib/img/speakers/chriseppstein.jpg
       photo_alt: Portrait of Chris Eppstein
