@@ -1,5 +1,5 @@
 .v-home {
-	h1 {
+	h1, h2 {
 		text-align: center;
 	}
 	p {
@@ -90,5 +90,8 @@
 			margin-left: 5%;
 		}
 	}
-
+	.ticket-terms {
+		font-size: ms(-1);
+		margin-left: 0;
+	}
 }
