@@ -1,3 +1,7 @@
+.overview {
+  @include clearfix;
+}
+
 .details {
   margin: 0;
   padding: 0;
@@ -6,12 +10,20 @@
     margin: 0;
     display: inline-table;
     width: 100%;
-    @include breakpoint(40em) {
-	    padding: 0 .5em;
-    	width: 50%;
+
+    @include breakpoint($large) {
+      padding: 0 .5em;
+      width: 47%;
     }
-    @include breakpoint(60em) {
-    	width: 33.333%;
+
+    @include jacket(innagural) {
+      @include breakpoint(40em) {
+        padding: 0 .5em;
+        width: 50%;
+      }
+      @include breakpoint(60em) {
+        width: 33.333%;
+      }
     }
   }
   h3 {

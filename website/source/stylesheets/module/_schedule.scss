@@ -73,13 +73,14 @@ $schedule-sessions: 14;
     $keynote-color: $secondary;
     $keynote-opacity: .25;
     $keynote-size: 1em;
+    $keynote-year:2014;
     &.keynote {
       text-shadow: 0 .1em .5em $tertiary;
       p {
         font-size: 1em;
       }
       &:before {
-        content: "KEYNOTE";
+        content: "#{$keynote-year} KEYNOTE";
         color: white;
         background-color: rgba(#000, .5);
         border-top: 1px solid rgba(#000, .75);

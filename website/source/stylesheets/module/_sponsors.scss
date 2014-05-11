@@ -2,6 +2,16 @@
   text-align: center;
   border-top: ms(-4) solid $secondary;
   background-color: white;
+  p {
+    max-width: 40em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sponsor-item {
+    &:after { content: ","}
+    &:last-child:after { content: "."}
+    &:last-child:before { content: "and "}
+  }
   .tier {
     margin-bottom: 3em;
     &:empty {

@@ -1,4 +1,7 @@
 .v-home {
+	h1, h2 {
+		text-align: center;
+	}
 	p {
 		max-width: 40em;
 		margin-left: auto;
@@ -14,10 +17,13 @@
 				background-color: mix($tertiary, $secondary);
 			}
 			@include breakpoint(60em) {
-				width: 49%;
-				float: left;
-				&:first-child {
-					margin-right: 2%;
+				width: 100%;
+				@include jacket(innagural) {
+					width: 49%;
+					float: left;
+					&:first-child {
+						margin-right: 2%;
+					}
 				}
 			}
 		}
@@ -28,18 +34,70 @@
 			margin-bottom: 1em;
 		}
 	}
-	
-	h1.first {
+
+	.vision {
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		margin-bottom: ms(1);
+	}
+
+
+	.standout {
+		padding: 0;
+		text-align: center;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+
 		@include breakpoint(40em) {
+
+			h1 {
+				color: white;
+			}
+
 			background-color: $tertiary;
 			color: white;
-			text-align: center;
-			margin: 0 -1em;
-			padding: 5%;
+			margin-left: -1em;
+			margin-right: -1em;
+			padding: 2.5% 5% 5%;
 			position: relative;
-			border-bottom-left-radius: ms(-4);
-			border-bottom-right-radius: ms(-4);
+			@include background-image(linear-gradient(
+				to bottom,
+				$tertiary,
+				$quadrary
+			));
+			// border-bottom-left-radius: .25em;
+			// border-bottom-right-radius: .25em;
+			margin: 0 -8.1% ms(1);
 		}
 	}
 
+	#sizzle {
+		@include breakpoint($xlarge) {
+			display: block;
+			float: right;
+			margin-left: 5%;
+		}
+	}
+
+	.cfp {
+		h1 span {
+			display: block;
+		}
+
+		.standout {
+			font-size: ms(1);
+		}
+	}
+
+	.intro {
+		p {
+			margin-left: 5%;
+		}
+	}
+	.ticket-terms {
+		font-size: ms(-1);
+		margin-left: 0;
+	}
 }

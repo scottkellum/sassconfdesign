@@ -1,0 +1,34 @@
+year_2013:
+  - tweet: "This weekend has been a dream come true for me...I am inspired, humbled & honored <3"
+    name: chriseppstein
+    permalink: "https://twitter.com/chriseppstein/status/389534674726694912"
+    photo: speakers/chriseppstein
+    photo_alt: "Chris Eppsteins twitter profile picture"
+  - tweet: "If you’re not at @SassConf, you’re missing out on awesomeness with unicorn rainbow sprinkles on top. #SassConf"
+    name: roy
+    photo: speakers/roytomeij
+    permalink: "https://twitter.com/roy/status/389100061126586369"
+  - tweet: "#sassconf was so awesome that it's making it really hard to adjust to normal life. Locked in mental loop for the next SassConf!"
+    name: anotheruiguy
+    photo: speakers/dalesande
+    permalink: "https://twitter.com/anotheruiguy/status/390577481704431616"
+  - tweet: "wow. #sassconf was incredible. what a friendly, open-minded, ego-free, and diverse group of speakers, attendees, organizers, maintainers."
+    name: elyseholladay
+    photo: speakers/elyseholladay
+    permalink: "https://twitter.com/elyseholladay/status/389622025104674816"
+  - tweet: "@sassconf was a success. Best conference yet!!! Thanks to all the speakers & organizers."
+    name: middle8media
+    photo: reviews/sethhall
+    permalink: "https://twitter.com/middle8media/status/389521235459452930"
+  - tweet: "Thank you SO MUCH @treehouse for sponsoring @SassConf & my ticket! I learned A LOT- can't wait to spread the word! Had an amazing experience"
+    name: Una
+    photo: reviews/una
+    permalink: "https://twitter.com/Una/status/389500105768071168"
+  - tweet: "Loved putting real faces and personalities to all the people I've worked on GitHub issues with over the past year. @SassConf"
+    name: robwierzbowski
+    photo: reviews/rob
+    permalink: "https://twitter.com/robwierzbowski/status/389843808961445889"
+  - tweet: "Still reeling from such an awesome experience at @SassConf. Feel more inspired than I have in years."
+    name: palebluejen
+    photo: reviews/palebluejen
+    permalink: "https://twitter.com/palebluejen/status/390530060866027520"
