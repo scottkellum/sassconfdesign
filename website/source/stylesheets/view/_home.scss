@@ -62,8 +62,14 @@
 			margin-right: -1em;
 			padding: 2.5% 5% 5%;
 			position: relative;
-			border-bottom-left-radius: .25em;
-			border-bottom-right-radius: .25em;
+			@include background-image(linear-gradient(
+				to bottom,
+				$tertiary,
+				$quadrary
+			));
+			// border-bottom-left-radius: .25em;
+			// border-bottom-right-radius: .25em;
+			margin: 0 -8.1% ms(1);
 		}
 	}
 

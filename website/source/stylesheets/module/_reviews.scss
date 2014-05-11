@@ -21,25 +21,23 @@ $schedule-sessions: 8;
 	}
 
 	.review-item {
-		display: table-cell;
     float: left;
     overflow: auto;
-    padding-top: ms(-1);
-    padding-bottom: ms(-1);
+    padding-top: ms(1);
     vertical-align: top;
 
 
     @include breakpoint(36em) {
-      width: 50%;
+      width: percentage(1/2);
+      height: ms(6.5);
     }
 
     @include breakpoint(50em) {
-      width: 33%;
+      width: percentage(1/3);
     }
 
-    @include breakpoint(60em) {
-      width: 25%;
-      height: 50%;
+    @include breakpoint(70em) {
+      width: percentage(1/4);
     }
 
 		* {
