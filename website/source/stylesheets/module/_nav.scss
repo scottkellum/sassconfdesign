@@ -13,9 +13,8 @@ $nav-breakpoint: 40em;
     padding: 1em;
     @include transition(all .5s);
     line-height: 1em;
-    opacity: 0;
-    height: 3em;
-    margin: -3em 0 0 0;
+    height: 1em;
+    margin: -3em 0 0;
     @include breakpoint(max-width $nav-breakpoint) {
       @for $i from 0 through $items-in-menu {
         &:nth-child(#{$i + 1}) {
@@ -28,7 +27,7 @@ $nav-breakpoint: 40em;
       background: $secondary;
     }
   }
-  button {
+  .button {
     display: block;
     border: none;
     background-color: $secondary;
@@ -42,13 +41,10 @@ $nav-breakpoint: 40em;
     }
   }
   input:checked ~ {
-    button:before {
+    .button:before {
       content: "Hide ";
     }
     a {
-      opacity: 1;
-      height: auto;
-      min-height: 3em;
       margin: 0;
     }
   }
