@@ -1,0 +1,254 @@
+$schedule-sessions: 14;
+
+.new_schedule {
+	&, li, h2, h3 {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		padding: 1em;
+    margin: 0 -1em;
+	}
+	.day {
+		background: $secondary;
+		* {
+			color: white;
+		}
+	}
+	h3 {
+		font-family: $text;
+		font-size: ms(0);
+		letter-spacing: .2em;
+		margin-top: ms(-3);
+	}
+	.session {
+		display: table;
+		width: 100%;
+		@include pie-clearfix;
+		// * {
+		// 	color: white;
+		// }
+    .title {
+      transform: skewX(-10deg);
+      backface-visibility: hidden;
+      background: $quadrary;
+      position: relative;
+      z-index: 2;
+      h1 {
+        transform: skewX(10deg);
+        // padding: {
+        //   left: 0.5em;
+        //   right: 0.5em;
+        // }
+        padding: 0.25em 0.5em;
+        margin-bottom: 0;
+      }
+    }
+    h1 {
+      color: white;
+    }
+    // background: $quadrary;
+    @for $i from 0 through $schedule-sessions {
+      &:nth-child(#{$schedule-sessions}n+#{$i + 1}) {
+        .title {
+          background: mix($secondary, $quadrary, 100% / ($schedule-sessions + 1) * ($i * -1 + $schedule-sessions))
+        }
+      }
+    }
+    h3 {
+      text-transform: uppercase;
+      opacity: .8;
+      margin-top: ms(-1);
+    }
+    // h2, h3, .time, .social {
+    // 	text-align: center;
+    //   .v-schedule & {
+    //     @include breakpoint(50em) {
+    //       text-align: left;
+    //     }
+    //   }
+    // }
+    h3.occupation {
+      font-size: .8em;
+    }
+    // .social {
+    //   font-family: uikitregular;
+    //   font-weight: 400;
+    //   -webkit-font-smoothing: antialiased;
+    //   text-transform: none;
+    //   letter-spacing: .25em;
+    //   font-size: ms(2);
+    //   margin-top: ms(-2);
+    //   @include breakpoint(50em) {
+    //     font-size: ms(1);
+    //     margin-top: ms(-1);
+    //   }
+    //   a {
+    //     opacity: .75;
+    //     &:hover {
+    //       text-decoration: none;
+    //       opacity: 1;
+    //     }
+    //   }
+    // }
+    $keynote-color: $secondary;
+    $keynote-opacity: .25;
+    $keynote-size: 1em;
+    $keynote-year:2014;
+    // &.keynote {
+    //   text-shadow: 0 .1em .5em $tertiary;
+    //   p {
+    //     font-size: 1em;
+    //   }
+    //   &:before {
+    //     content: "#{$keynote-year} KEYNOTE";
+    //     color: white;
+    //     background-color: rgba(#000, .5);
+    //     border-top: 1px solid rgba(#000, .75);
+    //     border-bottom: 1px solid rgba($secondary, .75);
+    //     border-radius: .25em;
+    //     display: block;
+    //     text-align: center;
+    //     letter-spacing: .3em;
+    //     padding: .5em .75em .25em .75em;
+    //     margin: 0 0 1em 0;
+    //     @include background-image(
+    //       linear-gradient(
+    //         top left,
+    //         rgba($keynote-color, 0) 33.333%/2,
+    //         rgba($keynote-color, $keynote-opacity) 33.333%/2,
+    //         rgba($keynote-color, $keynote-opacity) 33.333%,
+    //         rgba($keynote-color, 0) 33.333%,
+    //         rgba($keynote-color, 0) 33.333%*2,
+    //         rgba($keynote-color, $keynote-opacity) 33.333%*2,
+    //         rgba($keynote-color, $keynote-opacity) 33.333%*2.5,
+    //         rgba($keynote-color, 0) 33.333%*2.5
+    //       )
+    //     );
+    //     background-size: $keynote-size $keynote-size;
+    //   }
+    // }
+    // &.over {
+    //   @include filter(grayscale(100%));
+    //   opacity: .5;
+    //   @include transition(all .5s);
+    //   &:hover {
+    //     opacity: 1;
+    //   }
+    // }
+	}
+  .speaker-image {
+      transform: skewX(-10deg) translateX(1em);
+      /* transform-origin: 0 100%; */
+      overflow: hidden;
+      width: 240px;
+      height: 240px;
+      box-shadow: rgba(0, 0, 0, 0.33) 0 0 0 0.5em;
+      backface-visibility: hidden;
+      margin-bottom: 1em;
+      position: relative;
+      z-index: 1;
+      &:nth-of-type(2n+2) {
+        transform: skewX(10deg) translateX(1em);
+        img {
+          transform: skewX(-10deg) translateX(-30px) translateY(-30px);
+        }
+      }
+      img {
+          width: 300px;
+          height: 300px;
+          /* border-radius: 50%; */
+          transform: skewX(10deg) translateX(-30px) translateY(-30px);
+          /* height: 280px; */
+          /* transform-origin: 91% 50%; */
+      }
+  }
+	// img {
+	// 	display: block;
+	// 	border-radius: 50%;
+	// 	margin: 0 auto 7.5% auto;
+	// 	// border: ms(-3) solid $secondary;
+	// 	width: 40%;
+	// 	max-width: (390px / 2);
+	// 	@include box-shadow(0 0 0 ms(-3) $secondary);
+	// }
+  .person {
+    margin-bottom: 0.5em;
+    &:nth-of-type(1n+2) {
+      margin-top: 0.5em;
+      border-top: 1px solid rgba($secondary, 0.5);
+    }
+
+  }
+  .description {
+  	font-size: ms(-.5);
+  	max-width: 40em;
+  	@include breakpoint(40em) {
+  		font-size: 1em;
+  	}
+  }
+  // .time {
+  // 	font-size: ms(1);
+  // 	font-weight: 600;
+  // 	@include breakpoint(60em) {
+  // 		display: table-cell;
+  // 		vertical-align: middle;
+  // 		padding: 0 1em;
+  // 		span {
+  // 			border-left: 1px solid rgba(255,255,255,0.25);
+  // 			padding-left: 1em;
+  // 		}
+  // 		span, span:after {
+  // 			display: block;
+  // 			text-align: center;
+  // 		}
+  // 	}
+  // }
+  // .start:after {
+  // 	font-weight: 400;
+  // 	content: " to";
+  //   opacity: .75;
+  // }
+  // .v-schedule & {
+  //   @include breakpoint(50em) {
+  //     .session {
+  //       padding-left: ms(5) + 1em;
+  //     }
+  //     img {
+  //       float: left;
+  //       margin: 0 0 0 (ms(5) * -1);
+  //     }
+  //   }
+  // }
+  // .session.pannel {
+  // 	.pannelimgs {
+  // 		display: block;
+  // 		text-align: center;
+  // 		margin-bottom: 1em;
+  // 		@include pie-clearfix;
+  // 	}
+  // 	img {
+  // 		width: 20%;
+  // 		max-width: 100px;
+  // 		margin: 0 2% 2% 2%;
+  // 		display: inline-block;
+  // 	}
+  // 	padding: 1em;
+  // }
+  // $sg-speakers-wide: 1 2;
+  // $sg-speakers-wide-gutter: .25;
+  .settion__details {
+    overflow: hidden;
+  }
+  @include breakpoint(780px) {
+    .images {
+      float: left;
+      width: 15em;
+    }
+    // .settion__details {
+    //   float: left;
+    //   // max-width: 66%;
+    // }
+  }
+}

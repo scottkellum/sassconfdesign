@@ -11,7 +11,7 @@ gem "middleman-livereload", "~> 3.1.0"
 # Sass stuff
 
 gem 'compass', '~> 1.0.0.alpha.19'
-gem 'sass', '~> 3.3.5'
+gem 'sass', '~> 3.3.8'
 gem 'toolkit', '~> 2.3.0'
 gem 'color-schemer', '~> 0.2.8'
 gem 'modular-scale', '~> 2.0.5'
