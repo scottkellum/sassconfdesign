@@ -1,5 +1,18 @@
 $schedule-sessions: 14;
 
+.overview__section-title {
+  font-family: $text;
+  font-size: 1em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  background: rgba($quadrary, 0.16);
+  padding: 0.5em;
+  display: inline-block;
+  margin-bottom: 0;
+  border-bottom: 1px solid $quadrary;
+  font-weight: bold;
+}
+
 .new_schedule {
 	&, li, h2, h3 {
 		list-style: none;
@@ -22,6 +35,7 @@ $schedule-sessions: 14;
 		letter-spacing: .2em;
 		margin-top: ms(-3);
 	}
+
 	.session {
 		display: table;
 		width: 100%;
@@ -42,6 +56,7 @@ $schedule-sessions: 14;
         //   right: 0.5em;
         // }
         padding: 0.25em 0.5em;
+        margin-top: 0;
         margin-bottom: 0;
       }
     }
