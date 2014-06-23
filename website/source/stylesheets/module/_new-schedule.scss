@@ -44,13 +44,13 @@ $schedule-sessions: 14;
 		// 	color: white;
 		// }
     .title {
-      transform: skewX(-10deg);
-      backface-visibility: hidden;
+      @include transform(skewX(-10deg));
+      @include backface-visibility(hidden);
       background: $quadrary;
       position: relative;
       z-index: 2;
       h1 {
-        transform: skewX(10deg);
+        @include transform(skewX(10deg));
         // padding: {
         //   left: 0.5em;
         //   right: 0.5em;
@@ -154,27 +154,27 @@ $schedule-sessions: 14;
     // }
 	}
   .speaker-image {
-      transform: skewX(-10deg) translateX(1em);
+      @include transform(skewX(-10deg) translateX(1em));
       /* transform-origin: 0 100%; */
       overflow: hidden;
       width: 240px;
       height: 240px;
       box-shadow: rgba(0, 0, 0, 0.33) 0 0 0 0.5em;
-      backface-visibility: hidden;
+      @include backface-visibility(hidden);
       margin-bottom: 1em;
       position: relative;
       z-index: 1;
       &:nth-of-type(2n+2) {
-        transform: skewX(10deg) translateX(1em);
+        @include transform(skewX(10deg) translateX(1em));
         img {
-          transform: skewX(-10deg) translateX(-30px) translateY(-30px);
+          @include transform(skewX(-10deg) translateX(-30px) translateY(-30px));
         }
       }
       img {
           width: 300px;
           height: 300px;
           /* border-radius: 50%; */
-          transform: skewX(10deg) translateX(-30px) translateY(-30px);
+          @include transform(skewX(10deg) translateX(-30px) translateY(-30px));
           /* height: 280px; */
           /* transform-origin: 91% 50%; */
       }
