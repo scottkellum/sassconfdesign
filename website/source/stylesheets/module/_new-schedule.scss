@@ -17,9 +17,17 @@ $schedule-sessions: 14;
   background: rgba($quadrary, 0.16);
   padding: 0.5em;
   display: inline-block;
+  margin-top: 3em;
   margin-bottom: 0;
   border-bottom: 1px solid $quadrary;
   font-weight: bold;
+}
+.included {
+  font-family: $text;
+  font-size: 1em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: $secondary;
 }
 
 .new_schedule {
@@ -253,6 +261,21 @@ $schedule-sessions: 14;
   	@include breakpoint(40em) {
   		font-size: 1em;
   	}
+    h2 {
+      font-family: $text;
+      font-size: 1em;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: $tertiary;
+      margin-top: 1.5em;
+    }
+    ul {
+      padding-left: 1em;
+    }
+    li {
+      padding: 0.25em 0;
+      margin: 0;
+    }
   }
   // .time {
   // 	font-size: ms(1);
@@ -304,15 +327,18 @@ $schedule-sessions: 14;
   // }
   // $sg-speakers-wide: 1 2;
   // $sg-speakers-wide-gutter: .25;
-  .settion__details {
+  .section__details {
     overflow: hidden;
+    @include breakpoint(780px) {
+      margin-left: 15em;
+    }
   }
   @include breakpoint(780px) {
     .images {
       float: left;
       width: 15em;
     }
-    // .settion__details {
+    // .section__details {
     //   float: left;
     //   // max-width: 66%;
     // }

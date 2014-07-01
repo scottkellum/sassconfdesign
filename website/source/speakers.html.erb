@@ -1,0 +1,265 @@
+<div class="speakers">
+
+<article class="about">
+
+
+  <section class="overview">
+    <h1 class="overview__page-title">2014 Speakers</h1>
+
+    <h2 class="overview__section-title">2014 Keynotes</h2>
+    <ul class="new_schedule keynote">
+      <% data.speakers.year_2014.keynote.each do |f| %>
+      <li class="session <%= f.type %>">
+        <div class="images">
+          <div class="speaker-image">
+            <img src="<%= f.photo %>" alt="<%= f.photo_alt %>">
+          </div>
+        </div>
+        <h3 class="speaker"><%= f.name %></h3>
+        <h3 class="occupation"><%= f.occupation %></h3>
+      </li>
+      <% end %>
+    </ul>
+
+    <h2 class="overview__section-title">2014 Talks</h2>
+    <ul class="new_schedule talks">
+      <li class="session talk">
+        <div class="title">
+          <h1>Future Tools: Beyond Live Style Guides</h1>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Adam Detrick</h3>
+            </div>
+          </div>
+          <div class="description">
+          <p>Live style guides are widely accepted as a best practice in building user interfaces, but they don't always live up to their promise in practice. As a Design Architect at a company with over 12 years of accumulated code, I've facilitated the transition from ad hoc UI code to a more modern approach over the last few years. We've learned a great deal about what works and what does not when trying to implement a custom CSS foundation and other design-driven tools. In this talk, I'll be going beyond the basic idea of a live style guide, demonstrating tools and techniques that can help ideas thrive. Fully automated documentation, package management, cross-platform color management, authoring best practices, and the <a href="http://martinfowler.com/bliki/StranglerApplication.html">strangler pattern</a> will be covered. This talk avoids diving deeply into advanced features of Sass, focusing instead on novel approaches to the process of building user interface with Sass. Beginners will be able to follow the topics presented, but all makers of the internet will be able to find relevance in this talk. I'll be building on some material from related talks I've given at NYC tech meetups and bringing brand new ideas to SassConf. My goal is to leave attendees feeling empowered to tackle legacy code and ready to build their own custom style foundation. All software referenced in my talk will be open source under the MIT License and available on github.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="session talk">
+        <div class="title">
+          <h1>Thinking inside the box inside the box inside the box</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/masonwendell.jpg" alt="Portrait of Mason Wendell"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Mason Wendell</h3>
+              <h3 class="occupation">Senior Developer/Designer, Phase2</h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>Great design, like jazz, needs both harmony and discord skillfully executed in just the right places. On the web, many of our projects are playing sour notes. Let's want to get in tune. Even in the age or Responsive Web Design, many sites are being designed from the outside in. Whether the page is defined in Photoshop or, let's hope, in-browser, many design projects slide out of tune when they get to the second or third page. Components are inconsistent, page and layout dimensions vary, font sizes shift. These details add up. Living style guides have been proposed to address this problem, the trouble is they're often extracted from the finished project. Let's design the style guide first. Start from inside out with the most common aspects of a design language. Instead of envisioning individual pages, work to create a cohesive family of components and layouts that can be assembled into any page. By leveraging a tools that help us create the elements of out design language and visualize them in various contexts, we can make components, layouts, and even working pages that snap together beautifully. It's the new blank paper. This session will focus on the principles and benefits of this approach and use real-world examples from client work and personal projects. There will be some technical examples that will range from intermediate to advanced Sass and Responsive Web Design. This will include Sass partials, extends, mixins, and Compass extensions like Breakpoint and Singularity Grid System.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="session talk">
+        <div class="title">
+          <h1>Keeping Your Sass Squeaky Clean</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/adamonishi.jpg" alt="Portrait of Adam Onishi"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Adam Onishi</h3>
+              <h3 class="occupation">Senior Front End Developer, Architect</h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>In this talk, I will take a look at all the features Sass and Compass put at your disposal, showing you how they can be used in real-world situations with a case study from the new Persil.co.uk website. From making complex responsive front end builds more manageable, working with custom IE style sheets, all the way through to improving the consistency amongst a team of developers. All of this formed part of the work that went into the new Persil website. In the last few years we’ve become quite accustomed to increasing our productivity with preprocessors like Sass or LESS. But how many of us take it much further than using a few variables, nesting our selectors, and using partials. Sass brings much more functionality to the table, including loops, conditionals, functions, and mixins. Now bring Compass into the mix and you have an even more powerful combination with added functions and built-in mixins. I'll show you how you can start cleaning up your own Sass with these advanced techniques that we've been using in the Persil project.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="session talk">
+        <div class="title">
+          <h1>Style as a Service: Maintaining Style Across Multiple Websites</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/shayhowe.jpg" alt="Portrait of Shay Howe"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Shay Howe</h3>
+              <h3 class="occupation">Director of Product, Belly</h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>We often build multiple websites and applications that share the same styles across multiple code bases (style guides/pattern libraries). Maintaining these styles becomes quite a task, and causes increasing frustration overtime. Fortunately it doesn’t have to be this way. Within this talk we’ll cover a service-oriented architecture approach to sharing Sass styles across multiple code bases. Geared towards designers and front-end developers, we’ll discuss at how to best structure and write style sheets for reuse and how to properly package them to be used within different development environments. Consistency shouldn’t take a back seat to maintainability, and this talk covers how to have the best of both worlds.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="session talk">
+        <div class="title">
+          <h1>Building an Artful Web</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/smithschwartz.jpg" alt="Portrait of Smith Schwartz"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Smith Schwartz</h3>
+              <h3 class="occupation">Interaction Designer, Say Media</h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>Having recently made the transition from the world of art museums to the world of front-end development and design, I’ve learned that these two disciplines have more in common than one might think at first glance. There’s lots of talk in our industry about craftsmanship, but I believe we also need to strive to build a more artful web. We’ll start with a behind-the-scenes look at museums, art in the digital era, authenticity and fear, the temporal nature of what we do, and learn a bit of art history along the way.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+    <h2 class="overview__section-title">2014 Workshops</h2>
+    <h3 class="included">Included with your ticket!</h3>
+    <ul class="new_schedule workshops">
+      <li class="session workshop">
+        <div class="title">
+          <h1>Expanding your Sass Arsenal</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/anthonydispezio.jpg" alt="Portrait of Anthony DiSpezio"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Anthony DiSpezio</h3>
+              <h3 class="occupation">Content Engineer, Inkling</h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>Are you a Sass beginner eager to increase your experience? In this workshop we’ll take an in-depth look at some powerful features to help you write smarter Sass and cleaner CSS.</p>
+            <h2>Topics we’ll be covering in this workshop:</h2>
+            <ul>
+              <li>Extends and Mixins In-Depth</li>
+              <li>Maps and Loops</li>
+              <li>Functions FTW</li>
+              <li>Bulletproofing with Warnings</li>
+              <li>Media Query Techniques</li>
+            </ul>
+            <p>Please bring a laptop, a great attitude, and a sense of humor!</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="session workshop">
+        <div class="title">
+          <h1>Optimising the Critical Rendering Path </h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/patrickhamann.jpg" alt="Portrait of Patrick Hamann"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Patrick Hamann</h3>
+              <h3 class="occupation">Senior Software Engineer, The Guardian</h3>
+            </div>
+          </div>
+          <div class="description">
+            <h2>Who is it for?</h2>
+            <p>This workshop is for any designer or developer wanting to improve the speed of their websites and have a greater understanding of the browsers internals.<p>
+            <h2>What you'll learn</h2>
+            <p>Over the 4 hours you will learn what are the common performance bottlenecks in the browser from networking to painting and learn how to best optimise at each stage of the critical path to create fast, jank free websites.</p>
+            <h2>What this workshop will cover</h2>
+            <ul>
+              <li>Why performance matters</li>
+              <li>Networking</li>
+              <li>Render tree construction</li>
+              <li>Measuring performance using browser developer tools</li>
+              <li>Hardware acceleration</li>
+              <li>Optimising CSS</li>
+              <li>Optimising load time</li>
+              <li>Optimising paint</li>
+              <li>Practice on working examples</li>
+              <li>Testing and monitoring</li>
+              <li>Tips, tricks and best practices</li>
+              <li>The future</li>
+            </ul>
+            <h2>Requirements</h2>
+            <ul>
+              <li>Please bring your laptop with the following installed:</li>
+              <li>Latest Chrome browser</li>
+              <li>Node.js</li>
+              <li>Grunt</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="session workshop">
+        <div class="title">
+          <h1>Introduction into UX Regression Testing</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/kevinlamping.jpg" alt="Portrait of Kevin Lamping"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Kevin Lamping</h3>
+              <h3 class="occupation">Front-end Engineer, Rackspace</h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>Test-Driven Development has grown in popularity among the community in the past few years, but we're still lacking the proper tools to provide automation behind our CSS.</p>
+            <p>How do you know a change you made to one small section on a page doesn't break a large section on another page of your site, especially when you support hundreds of devices? </p>
+            <p>This workshop will walk through a few of the tools available to help out. We'll set up the software together, then run them against real-life scenarios to show where each succeeds and where they individually fall short. </p>
+            <p>By the end of the workshop, attendees will have a solid understanding of what options are available and know how to add a regression test suite to any project they're currently working on.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="session workshop">
+        <div class="title">
+          <h1>Choose your own Refactoring Adventure!</h1>
+        </div>
+        <div class="images">
+          <div class="speaker-image"><img src="/lib/img/speakers/elyseholladay_14.jpg" alt="Portrait of Elyse Holladay"></div>
+          <div class="speaker-image"><img src="/lib/img/speakers/jinabolton_14.jpg" alt="Portrait of Jina Bolton"></div>
+        </div>
+        <div class="section__details">
+          <div class="people">
+            <div class="person">
+              <h3 class="speaker">Elyse Holladay</h3>
+              <h3 class="occupation">Developer/Designer, MakerSquare</h3>
+            </div>
+            <div class="person">
+              <h3 class="speaker">Jina Bolton</h3>
+              <h3 class="occupation">Senior Product Designer, Salesforce UX </h3>
+            </div>
+          </div>
+          <div class="description">
+            <p>Whether you’ve been using Sass for a while or are still trying to figure out how to abandon plain CSS, refactoring a large project can be a daunting task. We all know it’s too hard to refactor everything for months and launch it all at once, so how do you begin a multi-step refactoring process?</p>
+            <p>In this four-hour workshop, Jina and Elyse will walk you through the basics of refactoring using Sass. You’ll receive guidelines for how to refactor for clarity, maintainability, efficiency, and DRY code, and learn how to test your changes. They’ll cover ways to break down a refactor into manageable chunks, help you understand how to modularize your CSS, and organize messy code into documented, style-guide ready files. Everyone will leave with a customized game plan of steps, tools, and guidelines to refactor their project—not a sample app—so bring your project code with you.</p>
+            <h2>Refactoring topics to be covered may include:</h2>
+            <ul>
+              <li>overview of ways to use Sass (CodeKit, Rails, libsass, nodesass, etc.)</li>
+              <li>creating color and typography variables</li>
+              <li>breaking out and importing files</li>
+              <li>determining CSS/UI modules, where they live in your app, and how to organize them</li>
+              <li>namespacing for style safety</li>
+              <li>commenting and in-CSS documentation</li>
+              <li>creating living style guides</li>
+              <li>naming conventions and refactoring classes/IDs</li>
+              <li>testing for changes</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+  </section>
+
+</div>
