@@ -330,7 +330,9 @@ $schedule-sessions: 14;
   .section__details {
     overflow: hidden;
     @include breakpoint(780px) {
-      margin-left: 15em;
+      // margin-left: 15em;
+      float: right;
+      width: calc(100% - 15em);
     }
   }
   @include breakpoint(780px) {
