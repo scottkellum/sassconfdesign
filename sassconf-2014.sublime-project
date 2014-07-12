@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "source/_data"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "source/_patterns"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "source/css/"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "source/fonts"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "source/images"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "source/js"
+		}
+	]
+}

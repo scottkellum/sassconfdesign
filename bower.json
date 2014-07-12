@@ -1,0 +1,5 @@
+{
+    "name": "sassconf-2014",
+    "version": "1.0.0",
+    "dependencies": {"jquery":"~1.11.1","modernizr":"latest"}
+}
