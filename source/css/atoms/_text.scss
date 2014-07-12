@@ -1,0 +1,19 @@
+p {
+	font-family: $font-family-primary;
+	font-size: 1em;
+	line-height: 1.4;
+	color: $color-black;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+a {
+	font-weight: 400;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

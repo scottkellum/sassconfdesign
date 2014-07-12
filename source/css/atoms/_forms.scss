@@ -1,0 +1,14 @@
+$text-fields: '.input-text, input[type="text"], input[type="email"], input[type="password"], input[type="search"], input[type="url"], input[type="number"], textarea';
+
+#{$text-fields} {
+}
+
+#{$text-fields},
+select {
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    @include border-radius(0);
+    padding: .3em;
+}
