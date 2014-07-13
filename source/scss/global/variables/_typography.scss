@@ -4,12 +4,13 @@
 
 // $archer: 'Archer SSm A', 'Archer SSm B', serif;
 // $archer-sc: 'Archer SSm small caps A', 'Archer SSm small caps B', serif;
-$whitney: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
-$whitney-sc: 'Whitney SSm small caps A', 'Whitney SSm small caps B', sans-serif;
-$landmark-dimensional: 'Landmark Dimensional A', 'Landmark Dimensional B';
-$landmark-inline: 'Landmark Inline A', 'Landmark Inline B';
-$landmark-shadow: 'Landmark Shadow A', 'Landmark Shadow B';
-$landmark-regular: 'Landmark Regular A', 'Landmark Regular B';
+// $whitney: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
+// $whitney-sc: 'Whitney SSm small caps A', 'Whitney SSm small caps B', sans-serif;
+// $landmark-dimensional: 'Landmark Dimensional A', 'Landmark Dimensional B';
+// $landmark-inline: 'Landmark Inline A', 'Landmark Inline B';
+// $landmark-shadow: 'Landmark Shadow A', 'Landmark Shadow B';
+// $landmark-regular: 'Landmark Regular A', 'Landmark Regular B';
+$surveyor-regular: 'Surveyor SSm A', 'Surveyor SSm B';
 
 //////////////////////
 // Default font stacks
@@ -21,8 +22,8 @@ $font-mono: 'Source Code Pro', monospace;
 
 //////////////////////
 // General font variables
-$font-body: $whitney;
-$font-headline: $landmark-inline;
+$font-body: $surveyor-regular;
+$font-headline: $surveyor-regular;
 $font-logo: $font-slab;
 $font-amp: $font-slab;
 //////////////////////

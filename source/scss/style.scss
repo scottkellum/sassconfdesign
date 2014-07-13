@@ -16,7 +16,7 @@ $browser-minimum-versions: (
 
 @import "compass",
         "compass/reset",
-        "compass/support",
+        // "compass/support",
 
         "toolkit",
         "toolkit/kickstart",
@@ -25,7 +25,10 @@ $browser-minimum-versions: (
         "modular-scale",
         "color-schemer",
 
-        "global/*";
+        "global/functions/*",
+        "global/variables/*",
+        "global/mixins/*",
+        "global/extends/*",
         "elements/*",
         "components/*",
         "layouts/*";

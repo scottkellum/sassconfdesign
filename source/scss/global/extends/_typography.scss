@@ -52,18 +52,18 @@
   font-style: italic;
 }
 
-%font-landmark {
-  font-family: $landmark-regular;
+%font-surveyor {
+  font-family: $surveyor-regular;
 }
-%font-landmark-dimensional {
-  font-family: $landmark-dimensional;
-}
-%font-landmark-inline {
-  font-family: $landmark-inline;
-}
-%font-landmark-shadow {
-  font-family: $landmark-shadow;
-}
+// %font-landmark-dimensional {
+//   font-family: $landmark-dimensional;
+// }
+// %font-landmark-inline {
+//   font-family: $landmark-inline;
+// }
+// %font-landmark-shadow {
+//   font-family: $landmark-shadow;
+// }
 
 %measure-to-columns {
   @include column-width(18em);
