@@ -5,7 +5,11 @@ module.exports = {
             "cssDir": "<%= paths.dest.css %>",
             "outputStyle": "compressed",
             "require": [
-                "compass-normalize",
+                "toolkit",
+                "breakpoint",
+                "singularitygs",
+                "modular-scale",
+                "color-schemer",
                 "sass-globbing"
             ]
         }
