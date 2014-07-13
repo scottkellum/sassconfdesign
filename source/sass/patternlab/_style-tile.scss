@@ -1,0 +1,19 @@
+$st-two: 2;
+$st-two-gtr: 0.25;
+
+@include breakpoint(32em) {
+  @include layout($st-two, $st-two-gtr) {
+    #st-main {
+      @include grid-span(1, 1);
+    }
+    .st-colors {
+      @include grid-span(1, 2, $options: ('clear': right));
+    }
+    .st-images {
+      @include grid-span(1, 2, $options: ('clear': right));
+    }
+    .st-adjectives {
+      @include grid-span(1, 2, $options: ('clear': right));
+    }
+  }
+}

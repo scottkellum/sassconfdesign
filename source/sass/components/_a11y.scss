@@ -1,0 +1,72 @@
+//////////////////////////////
+// Accessibility Component Mixins
+//////////////////////////////
+
+//////////////////////////////
+// A11y Default Variables
+$a11y-hidden-base-extend: true !default;
+$a11y-focusable-default: false !default;
+//////////////////////////////
+
+@mixin a11y-hidden($a11y-focusable: $a11y-focusable-default, $extend: $a11y-hidden-base-extend) {
+  @if $extend {
+    @if $a11y-focusable {
+      @extend %a11y-hidden-focusable-extend;
+    }
+    @else {
+      @extend %a11y-hidden-base-extend;
+    }
+  }
+  @else {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    @if $a11y-focusable {
+      &:active, &:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+      }
+    }
+  }
+}
+
+//////////////////////////////
+// Accessibility Component Extendable Classes
+//////////////////////////////
+%hidden {
+  display: none;
+}
+
+%a11y-hidden-base-extend {
+  @include a11y-hidden($extend: false);
+}
+
+%a11y-hidden-focusable-extend {
+  @include a11y-hidden($a11y-focusable: true, $extend: false);
+}
+
+
+//////////////////////////////
+// Accessibility Component
+//////////////////////////////
+.a11y--element-invisible {
+  @extend %a11y-hidden-base-extend;
+}
+
+.element-invisible {
+  @extend %a11y-hidden-base-extend;
+}
+
+.a11y--element-focusable {
+  @extend %a11y-hidden-focusable-extend;
+}
+

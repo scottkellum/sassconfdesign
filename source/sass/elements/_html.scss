@@ -1,0 +1,44 @@
+//////////////////////////////
+// HTML Element
+//////////////////////////////
+
+//////////////////////////////
+// HTML Element Mixins
+//////////////////////////////
+
+//////////////////////////////
+// HTML Element Default Variables
+$html-font-size:   em(nth($base-font-size, 1)) !default;
+$html-line-height: $base-line-height !default;
+$html-extend:      true !default;
+//////////////////////////////
+
+@mixin html-base($font-size: $html-font-size, $line-height: $html-line-height, $extend: $html-extend) {
+  @if not ($extend) {
+    font-size: $font-size;
+    line-height: $line-height;
+    overflow-x: hidden;
+  }
+  @else {
+    @extend %html-base;
+  }
+}
+
+
+
+//////////////////////////////
+// HTML Element Extendable Classes
+//////////////////////////////
+
+%html-base {
+  @include html-base($extend: false);
+}
+
+
+//////////////////////////////
+// HTML Element Styles
+//////////////////////////////
+
+html {
+  @extend %html-base;
+}

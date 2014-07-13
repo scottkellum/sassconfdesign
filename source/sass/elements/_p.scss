@@ -1,0 +1,54 @@
+//////////////////////////////
+// p Element
+//////////////////////////////
+
+//////////////////////////////
+// p Element Mixins
+//////////////////////////////
+
+//////////////////////////////
+// p Element Default Variables
+$p-line-height:  $base-line-height !default;
+$p-extend:       true !default;
+//////////////////////////////
+
+@mixin p-base($line-height: $p-line-height, $extend: $p-extend) {
+  @if not ($extend) {
+    margin-bottom: em($line-height);
+  }
+  @else {
+    @extend %p-base;
+  }
+}
+
+@mixin p-adjust($size, $line-height: $base-line-px) {
+  font-size: em($size);
+  line-height: $line-height / ($base-font-size * unitless($size));
+  margin-bottom: em($line-height);
+}
+
+
+
+//////////////////////////////
+// p Element Extendable Classes
+//////////////////////////////
+
+%p-base {
+  @include p-base($extend: false);
+}
+
+%p-intro {
+  @include p-adjust(em(ms(1)), $base-line-px * 1.25);
+}
+
+
+//////////////////////////////
+// p Element Styles
+//////////////////////////////
+
+p {
+  @extend %p-base;
+  .field-intro & {
+    @extend %p-intro;
+  }
+}

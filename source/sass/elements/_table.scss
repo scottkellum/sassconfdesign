@@ -1,0 +1,47 @@
+//////////////////////////////
+// table Element
+//////////////////////////////
+
+//////////////////////////////
+// table Element Mixins
+//////////////////////////////
+
+//////////////////////////////
+// table Element Default Variables
+$table-extend:      true !default;
+//////////////////////////////
+
+@mixin table-base($extend: $table-extend) {
+  @if not ($extend) {
+    //
+  }
+  @else {
+    @extend %table-base;
+  }
+}
+
+
+//////////////////////////////
+// table Element Extendable Classes
+//////////////////////////////
+
+%table-base {
+  @include table-base($extend: false);
+}
+
+
+
+//////////////////////////////
+// table Element Styles
+//////////////////////////////
+table {
+  width: 100%;
+}
+
+thead {
+  border-bottom: 1px solid $gray;
+}
+
+th {
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+//////////////////////////////
+// calculate pixels
+@function px($value, $px: 16) {
+  @return (($value * $px) / 1em) * 1px;
+}
+//////////////////////////////
+
+//////////////////////////////
+// calculate ems
+@function em($value, $context: $base-font-size) {
+  @if unit($value) == '' {
+    $value: $value * 1em;
+  }
+  @if unit($value) != px {
+    $value: px($value);
+  }
+  @if unit($context) != px {
+    $context: px($context);
+  }
+  @return ($value / $context) * 1em;
+}
+//////////////////////////////
+
+//////////////////////////////
+// convert em to unitless
+@function unitless($value) {
+  @if unit($value) == '' {
+    $value: $value;
+  }
+  @if unit($value) == 'em' {
+    $value: $value / 1em;
+  }
+  @return $value;
+}
+//////////////////////////////
+
+
+//////////////////////////////
+// calculate the em value of n baselines
+@function base-line-calc($lines: 1, $context: false) {
+  $calc: $lines * $base-line-em;
+  @if $context {
+    $calc: em($lines * $base-line-em, em($context));
+  }
+  @return $calc;
+}
+//////////////////////////////

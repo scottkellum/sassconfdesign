@@ -1,0 +1,59 @@
+//////////////////////////////
+// Compass Extension Settings
+//////////////////////////////
+
+//////////////////////////////
+// Style Guide
+//
+// These settings, along with their paired element or selector settings, will result in either elements or selectors being included in output CSS or not
+//////////////////////////////
+$output-elements: true !default;
+$output-selectors: true !default;
+
+//////////////////////
+// GENERAL
+$big-phi: 1 / $phi;
+$small-phi: 1 - 1 / $phi;
+$small-phi-percent: 100 - 100 / $phi * 1%;
+//////////////////////
+
+//////////////////////
+// Z-INDEXES
+$zi-wall: 100;
+$zi-header: 0;
+$zi-menu: 1;
+$zi-content: 2;
+//////////////////////
+
+//////////////////////////////
+// Breakpoint
+//
+// Settings for Breakpoint
+$breakpoint-to-ems: true;
+$breakpoint-no-query-fallbacks: true;
+// $bp-small-type         : max-width 500px;
+$hidpi                 : min-resolution 2dppx;
+//////////////////////////////
+
+//////////////////////
+// SINGULARITY GRIDS
+// $grids: 2;
+// // $grids: add-grid(compound(4, 5) at $bp-multicol);
+// // $grids: add-grid(2 at $bp-multicol);
+// // $grids: add-grid(ratio(golden(), 2, 'large') at $bp-multicol);
+// $grids: add-grid(ratio(golden(), 2, 'large') at $bp-golden-2);
+// // $grids: add-grid(ratio-spiral(3) at $bp-golden-3);
+// // $grids: add-grid(61.8034 14.5898 23.6068 at $bp-golden-3);
+// $grids: add-grid(ratio(golden(), 3, 'large') at $bp-golden-3);
+// // $grids: add-grid(compound(3, 5) at $bp-multicol);
+// // $grids: ratio-spiral();
+// $gutters: 1/8;
+// $gutters: add-gutter(1/10 at $bp-golden-2);
+// // $gutters: add-gutter(3 at $bp-golden-3);
+// // $gutters: add-gutter(1/2 at $bp-multicol);
+// // @debug nth($grids, 1);
+// // @debug nth($grids, 2);
+// // @debug nth($grids, 3);
+//////////////////////
+
+$space: "\0020";

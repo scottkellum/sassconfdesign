@@ -1,0 +1,63 @@
+//////////////////////////////
+// Baseline Component Mixins
+//////////////////////////////
+
+//////////////////////////////
+// Baseline Component Default Variables
+$vs-extend: true !default;
+$vs-margin-default: em($base-line-height) !default;
+$vs-divide-default: false !default;
+$vs-bordercolor-default: $cs-border !default;
+$vs-borderstyle-default: solid !default;
+//////////////////////////////
+
+@mixin vertical-separation($vs-margin: $vs-margin-default, $vs-divide: $vs-divide-default, $vs-bordercolor: $vs-bordercolor-default, $vs-borderstyle: $vs-borderstyle-default, $extend: $vs-extend) {
+  @if ($vs-margin != $vs-margin-default) or ($vs-divide != $vs-divide-default) or ($vs-bordercolor != $vs-bordercolor-default) or ($vs-borderstyle != $vs-borderstyle-default) {
+    $extend: false;
+  }
+  @if $extend {
+    @extend %vertical-separation;
+  }
+  @else {
+    @include clearfix;
+    @if $vs-divide {
+      border-bottom: $vs-divide $vs-borderstyle $vs-bordercolor;
+      margin-bottom: $vs-margin * 0.5;
+      padding-bottom: $vs-margin * 0.5 - $vs-divide;
+    }
+    @else {
+      margin-bottom: $vs-margin * 0.5;
+      padding-bottom: $vs-margin * 0.5;
+      border-bottom: none;
+    }
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom-width: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+//////////////////////////////
+// Baseline Component Extendable Classes
+//////////////////////////////
+
+%vertical-separation {
+  @include vertical-separation($extend: false)
+}
+
+%vertical-separation-border {
+  @include vertical-separation($vs-margin: em($base-line-height * 2), $vs-divide: em(1px), $vs-bordercolor: $gray-trans);
+}
+
+%vertical-separation-small {
+  @include vertical-separation($vs-margin: em($base-line-height * 0.5));
+}
+
+
+//////////////////////////////
+// Baseline Component
+//////////////////////////////
+
+

@@ -1,0 +1,168 @@
+//////////////////////////////
+// Form Element
+//////////////////////////////
+
+//////////////////////////////
+// Form Element Mixins
+//////////////////////////////
+
+//////////////////////////////
+// Forms Element Default Variables
+$form-box-extend: true !default;
+$form-text-area-extend: true !default;
+$form-text-area-height-default: em($base-line-height * 6.5) !default;
+$form-label-extend: true !default;
+$form-check-radio-extend: true !default;
+$form-legend-extend: true !default;
+$form-fieldset-extend: true !default;
+//////////////////////////////
+
+@mixin form-box($extend: $form-box-extend) {
+  @if $extend {
+    @extend %form-box-extend;
+  }
+  @else {
+    @extend %constrain-to-parent;
+    margin-top: 0;
+    margin-bottom: em($base-line-height);
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    height: em($base-line-height) / em($base-font-size) * 1.5em;
+    border-width: 1px;
+    border-color: $cs-border;
+    font-size: $base-font-size;
+    font-family: $font-body;
+  }
+}
+
+@mixin form-textarea($form-text-area-height: $form-text-area-height-default, $extend: $form-text-area-extend) {
+  @if $form-text-area-height != $form-text-area-height-default {
+    $extend: false;
+  }
+  @if $extend {
+    @extend %form-text-area-extend;
+  }
+  @else {
+    height: $form-text-area-height;
+  }
+}
+
+@mixin form-label($extend: $form-label-extend) {
+  @if $extend {
+    @extend %form-label-extend;
+  }
+  @else {
+    margin-right: 0.5em;
+    vertical-align: top;
+    line-height: em($base-line-height) / em($base-font-size) * 1.5em;
+    cursor: pointer;
+  }
+}
+
+@mixin form-check-radio($extend: $form-check-radio-extend) {
+  @if $extend {
+    @extend %form-check-radio-extend;
+  }
+  @else {
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+  }
+}
+
+@mixin form-legend($extend: $form-legend-extend) {
+  @if $extend {
+    @extend %form-legend-extend;
+  }
+  @else {
+    padding: 0 1em;
+    white-space: nowrap;
+  }
+}
+
+@mixin form-fieldset($extend: $form-fieldset-extend) {
+  @if $extend {
+    @extend %form-fieldset-extend;
+  }
+  @else {
+    border-style: dashed;
+  }
+}
+
+
+
+//////////////////////////////
+// Form Element Extendable Classes
+//////////////////////////////
+%form-box-extend {
+  @include form-box(false);
+}
+
+%form-textinput-extend {
+  @extend %form-box-extend;
+}
+
+%form-text-area-extend {
+  @extend %form-box-extend;
+  @include form-textarea($extend: false);
+}
+
+%form-label-extend {
+  @include form-label(false);
+}
+
+%form-check-radio-extend {
+  @include form-check-radio(false);
+}
+
+%form-legend-extend {
+  @include form-legend(false);
+}
+
+%form-fieldset-extend {
+  @include form-fieldset(false);
+}
+
+
+
+
+//////////////////////////////
+// Form Element Styles
+//////////////////////////////
+
+button {
+  @extend %button;
+}
+
+fieldset {
+  @extend %form-fieldset-extend;
+}
+
+input {
+  &[type=text], &[type=password], &[type=email], &[type=url], &[type=tel],
+  &[type=date], &[type=datetime], &[type=datetime-local], &[type=month], &[type=week], &[type=time],
+  &[type=number], &[type=range], &[type=search], &[type=color] {
+    @extend %form-textinput-extend;
+  }
+  &[type="radio"], &[type="checkbox"] {
+    @extend %form-check-radio-extend;
+  }
+  &[type='submit'], &[type='reset'], &[type='button'] {
+    @extend %button;
+  }
+}
+
+label {
+  @extend %form-label-extend;
+}
+
+legend {
+  @extend %form-legend-extend;
+}
+
+select {
+  @extend %form-textinput-extend;
+}
+
+textarea {
+  @extend %form-text-area-extend;
+}

@@ -1,0 +1,20 @@
+//////////////////////////////
+// inline Element
+//////////////////////////////
+
+
+strong {
+  @extend %bold;
+}
+
+em {
+  @extend %italic;
+}
+
+b {
+  @extend %bold;
+}
+
+code {
+  @extend %mono;
+}

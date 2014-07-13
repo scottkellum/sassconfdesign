@@ -1,0 +1,41 @@
+////////////////////////////
+// Cross Browser Support
+// $graceful-usage-threshold: 100;
+// $critical-usage-threshold: 100;
+
+$browser-minimum-versions: (
+  "ie": null,
+  "android": "4",
+  "chrome": "31",
+  "safari": "5",
+  "firefox": "25",
+  "ios-safari": "6.0-6.1",
+  "android-chrome": "0"
+);
+////////////////////////////
+
+@import "compass",
+        "compass/reset",
+        "compass/support",
+
+        "toolkit",
+        "toolkit/kickstart",
+        "breakpoint",
+        "singularitygs",
+        "modular-scale",
+        "color-schemer",
+
+        "global/*";
+        "elements/*",
+        "components/*",
+        "layouts/*";
+
+
+
+//////////////////////////////
+// Scratch Styles
+@import "scratch";
+
+//////////////////////////////
+// Patternlab Styles
+@import "patternlab/*";

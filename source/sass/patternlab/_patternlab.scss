@@ -1,0 +1,67 @@
+// COLORS
+.sg-swatch {
+  @extend %no-bullets;
+  // &.black { background-color: $black; }
+  // &.white { background-color: $white; }
+  // &.orange { background-color: $orange; }
+  // &.blue-very-light { background-color: $blue-very-light; }
+  // &.blue-light { background-color: $blue-light; }
+  // &.blue { background-color: $blue; }
+  // &.blue-slate { background-color: $blue-slate; }
+  // &.green { background-color: $green; }
+  // &.orange-chocolate { background-color: $orange-chocolate; }
+  // &.gray { background-color: $gray; }
+  // &.gray-dark { background-color: $gray-dark; }
+  // &.gray-med { background-color: $gray-med; }
+  // &.gray-light { background-color: $gray-light; }
+  // &.gray-lighter { background-color: $gray-lighter; }
+  // &.gray-extra-light { background-color: $gray-extra-light; }
+  // &.cool-white { background-color: $cool-white; }
+  // &.cool-white-shade { background-color: $cool-white-shade; }
+  // &.orange-less-light{ background-color: $orange-less-light; }
+  // &.orange-dark { background-color: $orange-dark; }
+  // &.orange-darker { background-color: $orange-darker; }
+  // &.orange-light { background-color: $orange-light; }
+  // &.orange-darkerer { background-color: $orange-darkerer; }
+  // &.blue-dark { background-color: $blue-dark; }
+  // &.gray-trans { background-color: $gray-trans; }
+  // &.blue-slate-mult { background-color: $blue-slate-mult; }
+}
+.sg-label {
+  @include ellipsis();
+}
+
+// TYPE
+.font-landmark {
+  @extend %font-landmark;
+}
+.font-landmark-dimensional {
+  @extend %font-landmark-dimensional;
+}
+.font-landmark-inline {
+  @extend %font-landmark-inline;
+}
+.font-landmark-shadow {
+  @extend %font-landmark-shadow;
+}
+// .font-smallcaps {
+//   @extend %small-caps-subtitle;
+// }
+// .font-secondary {
+//   @extend %slab-medium;
+// }
+// .font-secondary-smallcaps {
+//   @extend %slab-sc-medium;
+// }
+
+// MODULAR SCALE
+.sg-ms {
+  li {
+    white-space: nowrap;
+  }
+  @for $i from 0 through 10 {
+    .ms-#{$i} {
+      font-size: ms($i);
+    }
+  }
+}

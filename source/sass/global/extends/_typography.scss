@@ -1,0 +1,70 @@
+%serif {
+  font-family: $font-serifs;
+}
+
+%sans {
+  font-family: $font-sans;
+}
+
+%mono {
+  font-family: $font-mono;
+}
+
+%uppercase {
+  text-transform: uppercase;
+}
+
+%amp {
+  font-family: $font-amp;
+}
+
+%slab-light {
+  font-family: $font-slab;
+  font-weight: 400;
+}
+
+%slab-medium {
+  font-family: $font-slab;
+  font-weight: 500;
+}
+
+%slab-bold {
+  font-family: $font-slab;
+  font-weight: 800;
+}
+
+// %slab-sc-medium {
+//   font-family: $archer-sc;
+//   font-weight: 500;
+// }
+
+// %small-caps-subtitle {
+//   font-size: 14px;
+//   font-family: $whitney-sc;
+//   line-height: 1.1;
+// }
+
+%bold {
+  font-weight: bold;
+}
+
+%italic {
+  font-style: italic;
+}
+
+%font-landmark {
+  font-family: $landmark-regular;
+}
+%font-landmark-dimensional {
+  font-family: $landmark-dimensional;
+}
+%font-landmark-inline {
+  font-family: $landmark-inline;
+}
+%font-landmark-shadow {
+  font-family: $landmark-shadow;
+}
+
+%measure-to-columns {
+  @include column-width(18em);
+}

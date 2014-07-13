@@ -1,0 +1,140 @@
+//////////////////////////////
+// Link Element
+//////////////////////////////
+
+//////////////////////////////
+// Link Element Mixins
+//////////////////////////////
+
+//////////////////////////////
+// Links Element Default Variables
+$links-extend: true !default;
+$link-normal-default: $cs-link-normal !default;
+$link-hover-default: $cs-link-hover !default;
+$link-active-default: $cs-link-active !default;
+$link-visited-default: $cs-link-visited !default;
+$link-focus-default: $cs-link-focus !default;
+$set-background-links-default: true !default;
+$link-background-size-default: 1px !default;
+$link-background-normal-default: $cs-link-background-normal !default;
+$link-background-hover-default: $cs-link-background-hover !default;
+$link-background-active-default: $cs-link-background-active !default;
+$link-background-visited-default: $cs-link-background-visited !default;
+$link-background-focus-default: $cs-link-background-focus !default;
+$link-background-bkg-default: $cs-link-background-bkg !default;
+$unset-background-links-extend: true;
+//////////////////////////////
+
+@mixin set-link-colors($link-normal: $link-normal-default, $link-hover: $link-hover-default, $link-active: $link-active-default, $link-visited: $link-visited-default, $link-focus: $link-focus-default, $extend: $links-extend) {
+  @if $extend {
+    @extend %link-colors-extend;
+  }
+  @else {
+    &:not(.button) {
+      @include link-colors($link-normal, $link-hover, $link-active, $link-visited, $link-focus);
+    }
+  }
+}
+
+@mixin set-background-links($link-background-normal: $link-background-normal-default, $link-background-hover: $link-background-hover-default, $link-background-active: $link-background-active-default, $link-background-visited: $link-background-visited-default, $link-background-focus: $link-background-focus-default, $link-background-size: $link-background-size-default, $bkg: $link-background-bkg-default, $extend: $set-background-links-default) {
+  @if $extend {
+    @extend %link-background-extend;
+  }
+  @else {
+    text-decoration: none;
+    @include text-shadow($bkg -1px 1px 0, $bkg 0 1px 0, $bkg 1px 1px 0);
+    @include background-image(linear-gradient(to top, $link-background-normal $link-background-size, $bkg ($link-background-size + 1)));
+    &:visited {
+      @include background-image(linear-gradient(to top, $link-background-visited $link-background-size, $bkg ($link-background-size + 1)));
+    }
+    &:focus {
+      @include background-image(linear-gradient(to top, $link-background-focus $link-background-size, $bkg ($link-background-size + 1)));
+    }
+    &:hover {
+      @include background-image(linear-gradient(to top, $link-background-hover $link-background-size, $bkg ($link-background-size + 1)));
+    }
+    &:active {
+      @include background-image(linear-gradient(to top, $link-background-active $link-background-size, $bkg ($link-background-size + 1)));
+    }
+  }
+}
+
+@mixin unset-background-links($extend: $unset-background-links-extend) {
+  @if $extend {
+    @extend %link-unset-background-extend;
+  }
+  @else {
+    text-decoration: none;
+    @include text-shadow(none);
+    @include background-image(none);
+    &:visited {
+      @include text-shadow(none);
+      @include background-image(none);
+    }
+    &:focus {
+      @include text-shadow(none);
+      @include background-image(none);
+    }
+    &:hover {
+      @include text-shadow(none);
+      @include background-image(none);
+    }
+    &:active {
+      @include text-shadow(none);
+      @include background-image(none);
+    }
+  }
+}
+
+
+//////////////////////////////
+// Link Element Extendable Classes
+//////////////////////////////
+
+%link-colors-extend {
+  @include set-link-colors($extend: false);
+}
+
+%link-background-extend {
+  @include set-background-links($extend: false);
+}
+
+%link-unset-background-extend {
+  @include unset-background-links(false);
+}
+
+%links-extend {
+  @extend %link-colors-extend;
+  @extend %link-background-extend;
+}
+
+%nav-links {
+  @include set-link-colors($blue-slate, $orange, $orange, $blue-slate, $blue-slate, $extend: false);
+}
+
+// %links-white {
+//   padding: 0 0.5em;
+//   border-bottom: 1px solid rgba(tint($blue-slate, 20%), 0.5);
+//   @include set-link-colors($cool-white, $white, $white, $cool-white, $cool-white, $extend: false);
+// }
+
+// %links-dark-blue {
+//   @include set-link-colors($blue-dark, $white, $white, $blue-dark, $blue-dark, $extend: false);
+// }
+
+// %links-on-orange {
+//   @include set-link-colors($orange-darkerer, $white, $white, $orange-darkerer, $orange-darkerer, $extend: false);
+//   @include set-background-links($orange-less-light, $blue-very-light, $blue-very-light, $orange-less-light, $blue-very-light, $bkg: $orange, $extend: false);
+// }
+
+// %tab-links {
+//   @include set-link-colors($white, $blue-very-light, $blue-very-light, $white, $white, $extend: false);
+// }
+
+//////////////////////////////
+// Link Element Styles
+//////////////////////////////
+
+a {
+  @extend %links-extend;
+}

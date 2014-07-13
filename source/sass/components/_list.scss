@@ -1,0 +1,38 @@
+//////////////////////////////
+// List Component Mixins
+//////////////////////////////
+
+//////////////////////////////
+// List Component Extendable Classes
+//////////////////////////////
+
+%inline-list {
+  @include inline-list;
+}
+
+%no-bullets {
+  @include no-bullets;
+}
+
+%no-bullets-left {
+  @extend %no-bullets;
+  padding-left: 0;
+}
+
+%list-item-padding {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+
+//////////////////////////////
+// List Component
+//////////////////////////////
+
+.inline-list {
+  @extend %inline-list;
+}
+
+.no-bullets {
+  @extend %no-bullets;
+}
