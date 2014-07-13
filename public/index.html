@@ -12,10 +12,10 @@
 	<meta http-equiv="pragma" content="no-cache" />
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="styleguide/css/styleguide.css?1405143491" media="all" />
-	<link rel="stylesheet" href="styleguide/css/styleguide-specific.css?1405143491" media="all" />
-	<link rel="stylesheet" href="styleguide/css/vendor/typeahead.css?1405143491" media="all" />
-	<link rel="stylesheet" href="styleguide/css/vendor/prism.css?1405143491" media="all" />
+	<link rel="stylesheet" href="styleguide/css/styleguide.css?1405229196" media="all" />
+	<link rel="stylesheet" href="styleguide/css/styleguide-specific.css?1405229196" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/typeahead.css?1405229196" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/prism.css?1405229196" media="all" />
 	
 	<script src="styleguide/js/vendor/jquery.js"></script>
 </head>
@@ -82,7 +82,8 @@
 						</ol></li>
 					</ol></li>
 					<li class="sg-nav-templates"><a class="sg-acc-handle">Templates</a><ol class="sg-acc-panel">
-						<li><a href="patterns/03-templates-00-homepage/03-templates-00-homepage.html" class="sg-pop " data-patternpartial="templates-homepage">Homepage</a></li>
+						<li><a href="patterns/03-templates-00-style-tile/03-templates-00-style-tile.html" class="sg-pop " data-patternpartial="templates-style-tile">Style Tile</a></li>
+						<li><a href="patterns/03-templates-01-homepage/03-templates-01-homepage.html" class="sg-pop " data-patternpartial="templates-homepage">Homepage</a></li>
 					</ol></li>
 				<li><a href="styleguide/html/styleguide.html" class="sg-pop" data-patternpartial="all">All</a></li>
 			</ol>
@@ -110,7 +111,7 @@
 							<li class="sg-mqs">
 								<a href="#" class="mode-link sg-acc-handle" id="sg-size-mq" title="Media queries in stylesheet">MQ</a>
 								<ul class="sg-acc-panel sg-left" id="sg-mq">
-										<li><a href="#">80em</a></li>
+										<li><a href="#">32em</a></li>
 								</ul>
 							</li>
 							<li class="sg-find">
@@ -201,11 +202,11 @@
 	</script>
 	
 	<!-- Included JavaScript that makes everything work -->
-	<script src="styleguide/js/vendor/prism.js?1405143491"></script>
-	<script src="styleguide/js/vendor/jwerty.js?1405143491"></script>
-	<script src="styleguide/js/vendor/classlist-polyfill.js?1405143491"></script>
-	<script src="styleguide/js/vendor/typeahead.bundle.min.js?1405143491"></script>
-	<script src="styleguide/js/data-saver.js?1405143491"></script>
+	<script src="styleguide/js/vendor/prism.js?1405229196"></script>
+	<script src="styleguide/js/vendor/jwerty.js?1405229196"></script>
+	<script src="styleguide/js/vendor/classlist-polyfill.js?1405229196"></script>
+	<script src="styleguide/js/vendor/typeahead.bundle.min.js?1405229196"></script>
+	<script src="styleguide/js/data-saver.js?1405229196"></script>
 	<script>
 	  var ishMinimum           = 240;
 	  var ishMaximum           = 2600;
@@ -213,15 +214,15 @@
 		var ipAddress            = "192.168.1.132";
 		var xipHostname          = "http://patternlab.*.xip.io";
 	</script>	<script>
-		var patternPaths = {"atoms":{"colors":"00-atoms-01-global-00-colors","fonts":"00-atoms-01-global-01-fonts","headings":"00-atoms-02-text-00-headings","paragraph":"00-atoms-02-text-01-paragraph","blockquote":"00-atoms-02-text-02-blockquote","inline-elements":"00-atoms-02-text-03-inline-elements","time":"00-atoms-02-text-04-time","preformatted-text":"00-atoms-02-text-05-preformatted-text","hr":"00-atoms-02-text-06-hr","unordered":"00-atoms-03-lists-00-unordered","ordered":"00-atoms-03-lists-01-ordered","definition":"00-atoms-03-lists-02-definition","logo":"00-atoms-04-images-00-logo","button":"00-atoms-06-buttons-00-button","table":"00-atoms-07-tables-00-table"},"molecules":{"search":"01-molecules-00-forms-00-search","primary-nav":"01-molecules-01-navigation-00-primary-nav"},"organisms":{"header":"02-organisms-00-global-00-header","footer":"02-organisms-00-global-01-footer","article-body":"02-organisms-01-article-00-article-body"},"templates":{"homepage":"03-templates-00-homepage"}}
+		var patternPaths = {"atoms":{"colors":"00-atoms-01-global-00-colors","fonts":"00-atoms-01-global-01-fonts","headings":"00-atoms-02-text-00-headings","paragraph":"00-atoms-02-text-01-paragraph","blockquote":"00-atoms-02-text-02-blockquote","inline-elements":"00-atoms-02-text-03-inline-elements","time":"00-atoms-02-text-04-time","preformatted-text":"00-atoms-02-text-05-preformatted-text","hr":"00-atoms-02-text-06-hr","unordered":"00-atoms-03-lists-00-unordered","ordered":"00-atoms-03-lists-01-ordered","definition":"00-atoms-03-lists-02-definition","logo":"00-atoms-04-images-00-logo","button":"00-atoms-06-buttons-00-button","table":"00-atoms-07-tables-00-table"},"molecules":{"search":"01-molecules-00-forms-00-search","primary-nav":"01-molecules-01-navigation-00-primary-nav"},"organisms":{"header":"02-organisms-00-global-00-header","footer":"02-organisms-00-global-01-footer","article-body":"02-organisms-01-article-00-article-body"},"templates":{"style-tile":"03-templates-00-style-tile","homepage":"03-templates-01-homepage"}}
 	</script>	<script>
 		var viewAllPaths = {"atoms":{"global":"00-atoms-01-global","text":"00-atoms-02-text","lists":"00-atoms-03-lists","images":"00-atoms-04-images","buttons":"00-atoms-06-buttons","tables":"00-atoms-07-tables"},"molecules":{"forms":"01-molecules-00-forms","navigation":"01-molecules-01-navigation"},"organisms":{"global":"02-organisms-00-global","article":"02-organisms-01-article"}}
-	</script>	<script src="styleguide/js/url-handler.js?1405143491"></script>
-	<script src="styleguide/js/qrcode-generator.js?1405143491"></script>
-	<script src="styleguide/js/styleguide.js?1405143491"></script>
-	<script src="styleguide/js/pattern-finder.js?1405143491"></script>
-	<script src="styleguide/js/annotations-viewer.js?1405143491"></script>
-	<script src="styleguide/js/code-viewer.js?1405143491"></script>
+	</script>	<script src="styleguide/js/url-handler.js?1405229196"></script>
+	<script src="styleguide/js/qrcode-generator.js?1405229196"></script>
+	<script src="styleguide/js/styleguide.js?1405229196"></script>
+	<script src="styleguide/js/pattern-finder.js?1405229196"></script>
+	<script src="styleguide/js/annotations-viewer.js?1405229196"></script>
+	<script src="styleguide/js/code-viewer.js?1405229196"></script>
 	<script>
 		
 		var autoReloadNav  = true;
@@ -230,6 +231,6 @@
 		var pageFollowPort = 8003;
 		
 	</script>
-	<script src="styleguide/js/synclisteners.js?1405143491"></script>
+	<script src="styleguide/js/synclisteners.js?1405229196"></script>
 </body>
 </html>
