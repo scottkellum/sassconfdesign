@@ -32,8 +32,6 @@ page "/feed.xml", :layout => false
 # Compass
 ###
 
-# Susy grids in Compass
-# First: gem install susy
 require 'toolkit'
 require 'color-schemer'
 require 'modular-scale'
