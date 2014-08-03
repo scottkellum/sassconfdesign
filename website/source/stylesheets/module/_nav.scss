@@ -10,6 +10,7 @@ $nav-breakpoint: 40em;
   a {
     display: block;
     color: white;
+    text-align: center;
     padding: 1em;
     @include transition(all .5s);
     line-height: 1em;
